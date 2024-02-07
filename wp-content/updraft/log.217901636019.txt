@@ -1,0 +1,553 @@
+0000.001 (0) Opened log file at time: Wed, 31 Jan 2024 13:27:51 +0000 on http://localhost/wordpress-dev
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.2 PHP: 8.2.11 (apache2handler, Windows NT VAI-CM06-SG10 10.0 build 22621 (Windows 11) AMD64) MySQL: 5.7.36 (max packet size=1048576) WPLANG: fr_FR Server: Apache/2.4.51 (Win64) PHP/8.2.11 mod_fcgid/2.3.10-dev safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 28.4M | 30M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.010 (0) Free space on disk containing Updraft's temporary directory: 23184.2 MB
+0000.014 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.016 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.018 (0) Set semaphore last lock (fd) time to 2024-01-31 13:27:51
+0000.019 (0) Semaphore lock (fd) complete
+0000.021 (0) Backup run: resumption=0, nonce=217901636019, file_nonce=217901636019 begun at=1706707671 (0s ago), job type=backup
+0000.023 (0) Scheduling a resumption (1) after 300 seconds (1706707971) in case this run gets aborted
+0000.025 (0) Checking if we have a zip executable available
+0000.027 (0) Creation of backups of directories: beginning
+0000.031 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.588 (0) Total entities for the zip file: 1563 directories, 8347 files (0 skipped as non-modified), 111.2 MB
+0002.640 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.691 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.3 MB, 196 (196) files added so far); re-opening (prior size: 0 KB)
+0002.863 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 200 files added (on-disk size: 1693.4 KB)
+0002.918 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 300 files added (on-disk size: 1693.4 KB)
+0002.966 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 400 files added (on-disk size: 1693.4 KB)
+0003.004 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 500 files added (on-disk size: 1693.4 KB)
+0003.042 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 600 files added (on-disk size: 1693.4 KB)
+0003.073 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 700 files added (on-disk size: 1693.4 KB)
+0003.102 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 800 files added (on-disk size: 1693.4 KB)
+0003.142 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 900 files added (on-disk size: 1693.4 KB)
+0003.180 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 1000 files added (on-disk size: 1693.4 KB)
+0003.226 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 1100 files added (on-disk size: 1693.4 KB)
+0003.259 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.8 MB, 8347 files batched, 1001 (1197) added so far); re-opening (prior size: 1693.4 KB)
+0004.252 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 1200 files added (on-disk size: 8016.5 KB)
+0004.292 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 1300 files added (on-disk size: 8016.5 KB)
+0004.340 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 1400 files added (on-disk size: 8016.5 KB)
+0004.397 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 1500 files added (on-disk size: 8016.5 KB)
+0004.450 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 1600 files added (on-disk size: 8016.5 KB)
+0004.507 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 1700 files added (on-disk size: 8016.5 KB)
+0004.557 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 1800 files added (on-disk size: 8016.5 KB)
+0004.615 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 1900 files added (on-disk size: 8016.5 KB)
+0004.662 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 2000 files added (on-disk size: 8016.5 KB)
+0004.736 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 2100 files added (on-disk size: 8016.5 KB)
+0004.791 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (19.7 MB, 8347 files batched, 1001 (2198) added so far); re-opening (prior size: 8016.5 KB)
+0007.334 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 2200 files added (on-disk size: 13479.7 KB)
+0007.387 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 2300 files added (on-disk size: 13479.7 KB)
+0007.434 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 2400 files added (on-disk size: 13479.7 KB)
+0007.497 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 2500 files added (on-disk size: 13479.7 KB)
+0007.561 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 2600 files added (on-disk size: 13479.7 KB)
+0007.622 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 2700 files added (on-disk size: 13479.7 KB)
+0007.688 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 2800 files added (on-disk size: 13479.7 KB)
+0007.748 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 2900 files added (on-disk size: 13479.7 KB)
+0007.796 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 3000 files added (on-disk size: 13479.7 KB)
+0007.844 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 3100 files added (on-disk size: 13479.7 KB)
+0007.891 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.3 MB, 8347 files batched, 1001 (3199) added so far); re-opening (prior size: 13479.7 KB)
+0008.894 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 3200 files added (on-disk size: 17204.6 KB)
+0008.941 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 3300 files added (on-disk size: 17204.6 KB)
+0008.995 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 3400 files added (on-disk size: 17204.6 KB)
+0009.048 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 3500 files added (on-disk size: 17204.6 KB)
+0009.107 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 3600 files added (on-disk size: 17204.6 KB)
+0009.161 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 3700 files added (on-disk size: 17204.6 KB)
+0009.215 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 3800 files added (on-disk size: 17204.6 KB)
+0009.268 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 3900 files added (on-disk size: 17204.6 KB)
+0009.318 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 4000 files added (on-disk size: 17204.6 KB)
+0009.365 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 4100 files added (on-disk size: 17204.6 KB)
+0009.429 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (21.2 MB, 8347 files batched, 1001 (4200) added so far); re-opening (prior size: 17204.6 KB)
+0010.690 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 4200 files added (on-disk size: 30500.9 KB)
+0010.773 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 4300 files added (on-disk size: 30500.9 KB)
+0010.834 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 4400 files added (on-disk size: 30500.9 KB)
+0010.891 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 4500 files added (on-disk size: 30500.9 KB)
+0010.949 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 4600 files added (on-disk size: 30500.9 KB)
+0011.066 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 4700 files added (on-disk size: 30500.9 KB)
+0011.116 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 4800 files added (on-disk size: 30500.9 KB)
+0011.185 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 4900 files added (on-disk size: 30500.9 KB)
+0011.236 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 5000 files added (on-disk size: 30500.9 KB)
+0011.276 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 5100 files added (on-disk size: 30500.9 KB)
+0011.326 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 5200 files added (on-disk size: 30500.9 KB)
+0011.330 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.1 MB, 8347 files batched, 1001 (5201) added so far); re-opening (prior size: 30500.9 KB)
+0012.064 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 5300 files added (on-disk size: 32722.9 KB)
+0012.127 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 5400 files added (on-disk size: 32722.9 KB)
+0012.182 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 5500 files added (on-disk size: 32722.9 KB)
+0012.243 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 5600 files added (on-disk size: 32722.9 KB)
+0012.298 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 5700 files added (on-disk size: 32722.9 KB)
+0012.339 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 5800 files added (on-disk size: 32722.9 KB)
+0012.393 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 5900 files added (on-disk size: 32722.9 KB)
+0012.455 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 6000 files added (on-disk size: 32722.9 KB)
+0012.532 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 6100 files added (on-disk size: 32722.9 KB)
+0012.607 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 6200 files added (on-disk size: 32722.9 KB)
+0012.610 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.8 MB, 8347 files batched, 1001 (6202) added so far); re-opening (prior size: 32722.9 KB)
+0013.519 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 6300 files added (on-disk size: 34247.2 KB)
+0013.579 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 6400 files added (on-disk size: 34247.2 KB)
+0013.637 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 6500 files added (on-disk size: 34247.2 KB)
+0013.696 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 6600 files added (on-disk size: 34247.2 KB)
+0013.761 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 6700 files added (on-disk size: 34247.2 KB)
+0013.829 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 6800 files added (on-disk size: 34247.2 KB)
+0013.894 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 6900 files added (on-disk size: 34247.2 KB)
+0013.962 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 7000 files added (on-disk size: 34247.2 KB)
+0014.031 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 7100 files added (on-disk size: 34247.2 KB)
+0014.092 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 7200 files added (on-disk size: 34247.2 KB)
+0014.096 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.5 MB, 8347 files batched, 1001 (7203) added so far); re-opening (prior size: 34247.2 KB)
+0015.543 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 7300 files added (on-disk size: 38462.4 KB)
+0015.601 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 7400 files added (on-disk size: 38462.4 KB)
+0015.677 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 7500 files added (on-disk size: 38462.4 KB)
+0015.744 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 7600 files added (on-disk size: 38462.4 KB)
+0015.795 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 7700 files added (on-disk size: 38462.4 KB)
+0015.868 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 7800 files added (on-disk size: 38462.4 KB)
+0015.936 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 7900 files added (on-disk size: 38462.4 KB)
+0016.006 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 8000 files added (on-disk size: 38462.4 KB)
+0016.074 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 8100 files added (on-disk size: 38462.4 KB)
+0016.133 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 8200 files added (on-disk size: 38462.4 KB)
+0016.139 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15.9 MB, 8347 files batched, 1001 (8204) added so far); re-opening (prior size: 38462.4 KB)
+0018.755 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.tmp: 8300 files added (on-disk size: 44060 KB)
+0019.267 (0) Creating zip file manifest (backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.list-temp.tmp)
+0019.390 (0) Successfully created zip file manifest (size: 745499)
+0020.329 (0) Created plugins zip (0) - 44223.4 KB in 20.3 s (2179.2 KB/s) (sha1: 9ca1df572649aa6d7465f17a0b2625a5e63b22dd, sha256: ee6ecd5c275e0eab185ab246faf0c0983a7ebf811a7cb25055255a1a408944a0)
+0020.340 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0020.342 (0) No remote despatch: user chose no remote backup service
+0020.343 (0) Recording as successfully uploaded: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip
+0020.346 (0) Deleting zip manifest (backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip.list.tmp)
+0020.351 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0020.354 (0) Number of backup sets in history: 1; groups (db): 1
+0020.355 (0) Examining (for databases) backup set with group_id=0, nonce=08a70bdbc032, datestamp=1706706426 (Jan 31 2024 13:07:06)
+0020.357 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0020.358 (0) Number of backup sets in history: 1; groups (files): 1
+0020.359 (0) Examining (for files) backup set with nonce=08a70bdbc032, datestamp=1706706426 (Jan 31 2024 13:07:06)
+0020.359 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0020.361 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0020.367 (0) Beginning creation of dump of themes (split every: 400 MB)
+0020.556 (0) Total entities for the zip file: 84 directories, 554 files (0 skipped as non-modified), 19.4 MB
+0020.601 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0020.647 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0020.698 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0020.759 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0020.801 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0022.016 (0) Creating zip file manifest (backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-themes.zip.list-temp.tmp)
+0022.021 (0) Successfully created zip file manifest (size: 40012)
+0022.204 (0) Created themes zip (0) - 16128.4 KB in 1.8 s (8803.5 KB/s) (sha1: 748ebe612a20b8e239e149a93b6a431cddffd303, sha256: 2a6b758693f1339bdc5fa8cb049bfb47ba7ce80ddf53bae5d60b2514e622a797)
+0022.208 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0022.208 (0) No remote despatch: user chose no remote backup service
+0022.209 (0) Recording as successfully uploaded: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-themes.zip
+0022.210 (0) Deleting zip manifest (backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-themes.zip.list.tmp)
+0022.212 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0022.214 (0) Number of backup sets in history: 1; groups (db): 1
+0022.214 (0) Examining (for databases) backup set with group_id=0, nonce=08a70bdbc032, datestamp=1706706426 (Jan 31 2024 13:07:06)
+0022.214 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0022.215 (0) Number of backup sets in history: 1; groups (files): 1
+0022.216 (0) Examining (for files) backup set with nonce=08a70bdbc032, datestamp=1706706426 (Jan 31 2024 13:07:06)
+0022.216 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0022.217 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0022.222 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0022.223 (0) Looking for candidates to backup in: C:\wamp64\www\wordpress-dev/wp-content/uploads
+0022.224 (0) finding files: 2024: adding to list (1)
+0022.224 (0) finding files: wc-logs: adding to list (2)
+0022.225 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (3)
+0022.226 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (4)
+0022.227 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (5)
+0022.228 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (6)
+0022.228 (0) finding files: woocommerce-placeholder-324x324.png: adding to list (7)
+0022.229 (0) finding files: woocommerce-placeholder-416x416.png: adding to list (8)
+0022.230 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (9)
+0022.230 (0) finding files: woocommerce-placeholder.png: adding to list (10)
+0022.231 (0) finding files: woocommerce_uploads: adding to list (11)
+0022.232 (0) finding files: wpcf7_uploads: adding to list (12)
+0022.233 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0022.313 (0) Total entities for the zip file: 5 directories, 321 files (0 skipped as non-modified), 8.8 MB
+0022.390 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0022.438 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0022.483 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0022.595 (0) Creating zip file manifest (backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-uploads.zip.list-temp.tmp)
+0022.599 (0) Successfully created zip file manifest (size: 24023)
+0022.721 (0) Created uploads zip (0) - 9107.6 KB in 0.5 s (18793.3 KB/s) (sha1: 0d890949979419ab731f356be8583a476cbc377e, sha256: ddc1e02d0765735057fe8a4b0681dbadbfa53714b35744a308fef989f46226d9)
+0022.725 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0022.726 (0) No remote despatch: user chose no remote backup service
+0022.726 (0) Recording as successfully uploaded: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-uploads.zip
+0022.727 (0) Deleting zip manifest (backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-uploads.zip.list.tmp)
+0022.729 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0022.731 (0) Number of backup sets in history: 1; groups (db): 1
+0022.731 (0) Examining (for databases) backup set with group_id=0, nonce=08a70bdbc032, datestamp=1706706426 (Jan 31 2024 13:07:06)
+0022.731 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0022.732 (0) Number of backup sets in history: 1; groups (files): 1
+0022.733 (0) Examining (for files) backup set with nonce=08a70bdbc032, datestamp=1706706426 (Jan 31 2024 13:07:06)
+0022.733 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0022.733 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0022.739 (0) No backup of mu-plugins: excluded by user's options
+0022.740 (0) Beginning backup of other directories found in the content directory (index: 0)
+0022.741 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0022.742 (0) Looking for candidates to backup in: C:\wamp64\www\wordpress-dev/wp-content
+0022.743 (0) finding files: index.php: adding to list (1)
+0022.743 (0) finding files: languages: adding to list (2)
+0022.744 (0) finding files: plugins: skipping: this is the plugins directory
+0022.745 (0) finding files: themes: skipping: this is the themes directory
+0022.746 (0) finding files: updraft: skipping: this is the updraft directory
+0022.747 (0) finding files: upgrade: skipping: excluded by options
+0022.748 (0) finding files: upgrade-temp-backup: adding to list (3)
+0022.749 (0) finding files: uploads: skipping: this is the uploads directory
+0022.924 (0) Total entities for the zip file: 5 directories, 485 files (0 skipped as non-modified), 8.4 MB
+0022.979 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0023.035 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0023.071 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0023.111 (0) Zip: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0024.118 (0) Creating zip file manifest (backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-others.zip.list-temp.tmp)
+0024.124 (0) Successfully created zip file manifest (size: 39595)
+0024.170 (0) Created others zip (0) - 2486.8 KB in 1.4 s (1757.5 KB/s) (sha1: 72df727142286e4e82b4c78739b95b7b16e7afc2, sha256: 4dc6da186feb07884bf85be2aa421cbbaa7d869d5d4f0bf08645451cbd5cfdcb)
+0024.174 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0024.175 (0) No remote despatch: user chose no remote backup service
+0024.175 (0) Recording as successfully uploaded: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-others.zip
+0024.177 (0) Deleting zip manifest (backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-others.zip.list.tmp)
+0024.179 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0024.180 (0) Number of backup sets in history: 1; groups (db): 1
+0024.181 (0) Examining (for databases) backup set with group_id=0, nonce=08a70bdbc032, datestamp=1706706426 (Jan 31 2024 13:07:06)
+0024.181 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0024.182 (0) Number of backup sets in history: 1; groups (files): 1
+0024.183 (0) Examining (for files) backup set with nonce=08a70bdbc032, datestamp=1706706426 (Jan 31 2024 13:07:06)
+0024.183 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0024.183 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0024.189 (0) Saving backup status to database (elements: 8)
+0024.192 (0) Beginning creation of database dump (WordPress DB)
+0024.193 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER
+0024.195 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Workbench 8.0 CE\mysqldump.exe
+0024.325 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `di5skg_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4  (truncated - 1574 bytes total)
+0024.326 (0) Working binary mysqldump found: "C:\Program Files\MySQL\MySQL Workbench 8.0 CE\mysqldump.exe"
+0024.344 (0) Table di5skg_options: Total expected rows (via COUNT): 508
+0024.405 (0) Table di5skg_options: Rows added in this batch (next record: 1514): 504 (uncompressed bytes in this segment=2158210) in 0.07 seconds
+0024.413 (0) Table di5skg_options: finishing file(s) (2, 248.2 KB)
+0024.418 (0) Table di5skg_users: Total expected rows (via COUNT): 2
+0024.418 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.421 (0) Table di5skg_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1591) in 0.00 seconds
+0024.427 (0) Table di5skg_users: finishing file(s) (2, 0.7 KB)
+0024.433 (0) Table di5skg_usermeta: Total expected rows (via COUNT): 62
+0024.434 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.438 (0) Table di5skg_usermeta: Rows added in this batch (next record: 64): 62 (uncompressed bytes in this segment=5013) in 0.01 seconds
+0024.447 (0) Table di5skg_usermeta: finishing file(s) (2, 2.1 KB)
+0024.453 (0) Table di5skg_actionscheduler_actions: Total expected rows (via COUNT): 63
+0024.454 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.458 (0) Table di5skg_actionscheduler_actions: Rows added in this batch (next record: 214): 63 (uncompressed bytes in this segment=23210) in 0.01 seconds
+0024.465 (0) Table di5skg_actionscheduler_actions: finishing file(s) (2, 2.7 KB)
+0024.471 (0) Table di5skg_actionscheduler_claims: Total expected rows (via COUNT): 0
+0024.473 (0) Table di5skg_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=649) in 0.00 seconds
+0024.480 (0) Table di5skg_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0024.485 (0) Table di5skg_actionscheduler_groups: Total expected rows (via COUNT): 5
+0024.486 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.488 (0) Table di5skg_actionscheduler_groups: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=823) in 0.00 seconds
+0024.494 (0) Table di5skg_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0024.499 (0) Table di5skg_actionscheduler_logs: Total expected rows (via COUNT): 187
+0024.500 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.505 (0) Table di5skg_actionscheduler_logs: Rows added in this batch (next record: 187): 187 (uncompressed bytes in this segment=17167) in 0.01 seconds
+0024.512 (0) Table di5skg_actionscheduler_logs: finishing file(s) (2, 2.5 KB)
+0024.521 (0) Table di5skg_commentmeta: Total expected rows (via COUNT): 1
+0024.521 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.524 (0) Table di5skg_commentmeta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=800) in 0.01 seconds
+0024.532 (0) Table di5skg_commentmeta: finishing file(s) (2, 0.4 KB)
+0024.539 (0) Table di5skg_comments: Total expected rows (via COUNT): 4
+0024.540 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.541 (0) Table di5skg_comments: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=2915) in 0.00 seconds
+0024.548 (0) Table di5skg_comments: finishing file(s) (2, 1 KB)
+0024.553 (0) Table di5skg_links: Total expected rows (via COUNT): 0
+0024.555 (0) Table di5skg_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1334) in 0.00 seconds
+0024.561 (0) Table di5skg_links: finishing file(s) (2, 0.5 KB)
+0024.569 (0) Table di5skg_postmeta: Total expected rows (via COUNT): 509
+0024.570 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.581 (0) Table di5skg_postmeta: Rows added in this batch (next record: 642): 509 (uncompressed bytes in this segment=128162) in 0.01 seconds
+0024.588 (0) Table di5skg_postmeta: finishing file(s) (2, 18.2 KB)
+0024.595 (0) Table di5skg_posts: Total expected rows (via COUNT): 153
+0024.596 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.617 (0) Table di5skg_posts: Rows added in this batch (next record: 180): 153 (uncompressed bytes in this segment=446750) in 0.03 seconds
+0024.624 (0) Table di5skg_posts: finishing file(s) (2, 66.7 KB)
+0024.628 (0) Table di5skg_term_relationships: Total expected rows (approximate): 72
+0024.631 (0) Table di5skg_term_relationships: Rows added in this batch (next record: 100000): 72 (uncompressed bytes in this segment=1733) in 0.00 seconds
+0024.637 (0) Table di5skg_term_relationships: finishing file(s) (2, 0.6 KB)
+0024.643 (0) Table di5skg_term_taxonomy: Total expected rows (via COUNT): 71
+0024.644 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.647 (0) Table di5skg_term_taxonomy: Rows added in this batch (next record: 81): 71 (uncompressed bytes in this segment=3426) in 0.01 seconds
+0024.655 (0) Table di5skg_term_taxonomy: finishing file(s) (2, 0.9 KB)
+0024.663 (0) Table di5skg_termmeta: Total expected rows (via COUNT): 5
+0024.664 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.666 (0) Table di5skg_termmeta: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=936) in 0.01 seconds
+0024.674 (0) Table di5skg_termmeta: finishing file(s) (2, 0.5 KB)
+0024.679 (0) Table di5skg_terms: Total expected rows (via COUNT): 71
+0024.680 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.683 (0) Table di5skg_terms: Rows added in this batch (next record: 81): 71 (uncompressed bytes in this segment=3441) in 0.00 seconds
+0024.689 (0) Table di5skg_terms: finishing file(s) (2, 1.4 KB)
+0024.693 (0) Table di5skg_wc_category_lookup: Total expected rows (approximate): 2
+0024.695 (0) Table di5skg_wc_category_lookup: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=628) in 0.00 seconds
+0024.702 (0) Table di5skg_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0024.708 (0) Table di5skg_wc_product_meta_lookup: Total expected rows (via COUNT): 5
+0024.708 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.711 (0) Table di5skg_wc_product_meta_lookup: Rows added in this batch (next record: 173): 5 (uncompressed bytes in this segment=1925) in 0.00 seconds
+0024.717 (0) Table di5skg_wc_product_meta_lookup: finishing file(s) (2, 0.6 KB)
+0024.722 (0) Table di5skg_wc_reserved_stock: Total expected rows (approximate): 0
+0024.724 (0) Table di5skg_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=689) in 0.00 seconds
+0024.729 (0) Table di5skg_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0024.735 (0) Table di5skg_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0024.736 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.738 (0) Table di5skg_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=840) in 0.00 seconds
+0024.744 (0) Table di5skg_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0024.752 (0) Table di5skg_woocommerce_order_itemmeta: Total expected rows (via COUNT): 57
+0024.753 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.757 (0) Table di5skg_woocommerce_order_itemmeta: Rows added in this batch (next record: 744): 57 (uncompressed bytes in this segment=3178) in 0.01 seconds
+0024.766 (0) Table di5skg_woocommerce_order_itemmeta: finishing file(s) (2, 1 KB)
+0024.773 (0) Table di5skg_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0024.776 (0) Table di5skg_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=822) in 0.01 seconds
+0024.787 (0) Table di5skg_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0024.795 (0) Table di5skg_sib_model_forms: Total expected rows (via COUNT): 1
+0024.796 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.799 (0) Table di5skg_sib_model_forms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=3675) in 0.01 seconds
+0024.808 (0) Table di5skg_sib_model_forms: finishing file(s) (2, 1.2 KB)
+0024.816 (0) Table di5skg_sib_model_users: Total expected rows (via COUNT): 0
+0024.818 (0) Table di5skg_sib_model_users: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=690) in 0.01 seconds
+0024.825 (0) Table di5skg_sib_model_users: finishing file(s) (2, 0.4 KB)
+0024.832 (0) Table di5skg_wc_admin_note_actions: Total expected rows (via COUNT): 100
+0024.833 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.838 (0) Table di5skg_wc_admin_note_actions: Rows added in this batch (next record: 848): 100 (uncompressed bytes in this segment=19037) in 0.01 seconds
+0024.845 (0) Table di5skg_wc_admin_note_actions: finishing file(s) (2, 3.1 KB)
+0024.850 (0) Table di5skg_wc_admin_notes: Total expected rows (via COUNT): 68
+0024.851 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.856 (0) Table di5skg_wc_admin_notes: Rows added in this batch (next record: 68): 68 (uncompressed bytes in this segment=33576) in 0.01 seconds
+0024.863 (0) Table di5skg_wc_admin_notes: finishing file(s) (2, 7.2 KB)
+0024.867 (0) Table di5skg_wc_customer_lookup: Total expected rows (via COUNT): 1
+0024.868 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.869 (0) Table di5skg_wc_customer_lookup: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1478) in 0.00 seconds
+0024.876 (0) Table di5skg_wc_customer_lookup: finishing file(s) (2, 0.6 KB)
+0024.879 (0) Table di5skg_wc_download_log: Total expected rows (via COUNT): 0
+0024.881 (0) Table di5skg_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=771) in 0.00 seconds
+0024.887 (0) Table di5skg_wc_download_log: finishing file(s) (2, 0.4 KB)
+0024.891 (0) Table di5skg_wc_etransactions_cards: Total expected rows (via COUNT): 18
+0024.892 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.894 (0) Table di5skg_wc_etransactions_cards: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=2885) in 0.00 seconds
+0024.900 (0) Table di5skg_wc_etransactions_cards: finishing file(s) (2, 0.8 KB)
+0024.904 (0) Table di5skg_wc_etransactions_payment: Total expected rows (via COUNT): 0
+0024.906 (0) Table di5skg_wc_etransactions_payment: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=676) in 0.00 seconds
+0024.911 (0) Table di5skg_wc_etransactions_payment: finishing file(s) (2, 0.4 KB)
+0024.916 (0) Table di5skg_wc_order_addresses: Total expected rows (via COUNT): 6
+0024.917 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.920 (0) Table di5skg_wc_order_addresses: Rows added in this batch (next record: 8): 6 (uncompressed bytes in this segment=2148) in 0.00 seconds
+0024.926 (0) Table di5skg_wc_order_addresses: finishing file(s) (2, 0.7 KB)
+0024.930 (0) Table di5skg_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0024.931 (0) Table di5skg_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=741) in 0.00 seconds
+0024.937 (0) Table di5skg_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0024.942 (0) Table di5skg_wc_order_operational_data: Total expected rows (via COUNT): 3
+0024.942 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.944 (0) Table di5skg_wc_order_operational_data: Rows added in this batch (next record: 4): 3 (uncompressed bytes in this segment=2162) in 0.00 seconds
+0024.950 (0) Table di5skg_wc_order_operational_data: finishing file(s) (2, 0.8 KB)
+0024.955 (0) Table di5skg_wc_order_product_lookup: Total expected rows (via COUNT): 3
+0024.955 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.957 (0) Table di5skg_wc_order_product_lookup: Rows added in this batch (next record: 94): 3 (uncompressed bytes in this segment=1580) in 0.00 seconds
+0024.962 (0) Table di5skg_wc_order_product_lookup: finishing file(s) (2, 0.6 KB)
+0024.968 (0) Table di5skg_wc_order_stats: Total expected rows (via COUNT): 3
+0024.968 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.970 (0) Table di5skg_wc_order_stats: Rows added in this batch (next record: 179): 3 (uncompressed bytes in this segment=1690) in 0.00 seconds
+0024.976 (0) Table di5skg_wc_order_stats: finishing file(s) (2, 0.7 KB)
+0024.980 (0) Table di5skg_wc_order_tax_lookup: Total expected rows (approximate): 2
+0024.983 (0) Table di5skg_wc_order_tax_lookup: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=989) in 0.00 seconds
+0024.990 (0) Table di5skg_wc_order_tax_lookup: finishing file(s) (2, 0.5 KB)
+0024.995 (0) Table di5skg_wc_orders: Total expected rows (via COUNT): 3
+0024.995 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.997 (0) Table di5skg_wc_orders: Rows added in this batch (next record: 179): 3 (uncompressed bytes in this segment=2658) in 0.00 seconds
+0025.003 (0) Table di5skg_wc_orders: finishing file(s) (2, 0.9 KB)
+0025.008 (0) Table di5skg_wc_orders_meta: Total expected rows (via COUNT): 31
+0025.008 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.010 (0) Table di5skg_wc_orders_meta: Rows added in this batch (next record: 38): 31 (uncompressed bytes in this segment=3138) in 0.00 seconds
+0025.017 (0) Table di5skg_wc_orders_meta: finishing file(s) (2, 1.1 KB)
+0025.021 (0) Table di5skg_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0025.022 (0) Table di5skg_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=886) in 0.00 seconds
+0025.028 (0) Table di5skg_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0025.033 (0) Table di5skg_wc_product_download_directories: Total expected rows (via COUNT): 2
+0025.033 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.035 (0) Table di5skg_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=952) in 0.00 seconds
+0025.041 (0) Table di5skg_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0025.047 (0) Table di5skg_wc_rate_limits: Total expected rows (via COUNT): 0
+0025.048 (0) Table di5skg_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=724) in 0.00 seconds
+0025.054 (0) Table di5skg_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0025.058 (0) Table di5skg_wc_webhooks: Total expected rows (via COUNT): 0
+0025.060 (0) Table di5skg_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1254) in 0.00 seconds
+0025.066 (0) Table di5skg_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0025.072 (0) Table di5skg_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0025.073 (0) Table di5skg_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1070) in 0.00 seconds
+0025.103 (0) Table di5skg_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0025.108 (0) Table di5skg_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0025.109 (0) Table di5skg_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=985) in 0.00 seconds
+0025.116 (0) Table di5skg_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0025.120 (0) Table di5skg_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0025.121 (0) Table di5skg_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1562) in 0.00 seconds
+0025.127 (0) Table di5skg_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0025.134 (0) Table di5skg_woocommerce_log: Total expected rows (via COUNT): 0
+0025.135 (0) Table di5skg_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=746) in 0.00 seconds
+0025.144 (0) Table di5skg_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0025.150 (0) Table di5skg_woocommerce_order_items: Total expected rows (via COUNT): 7
+0025.153 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.156 (0) Table di5skg_woocommerce_order_items: Rows added in this batch (next record: 105): 7 (uncompressed bytes in this segment=1265) in 0.01 seconds
+0025.162 (0) Table di5skg_woocommerce_order_items: finishing file(s) (2, 0.6 KB)
+0025.166 (0) Table di5skg_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0025.169 (0) Table di5skg_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=865) in 0.00 seconds
+0025.175 (0) Table di5skg_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0025.180 (0) Table di5skg_woocommerce_sessions: Total expected rows (via COUNT): 2
+0025.181 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.185 (0) Table di5skg_woocommerce_sessions: Rows added in this batch (next record: 4): 2 (uncompressed bytes in this segment=6029) in 0.01 seconds
+0025.194 (0) Table di5skg_woocommerce_sessions: finishing file(s) (2, 1.8 KB)
+0025.198 (0) Table di5skg_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 6
+0025.199 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.200 (0) Table di5skg_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 11): 6 (uncompressed bytes in this segment=1152) in 0.00 seconds
+0025.206 (0) Table di5skg_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.5 KB)
+0025.210 (0) Table di5skg_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 5
+0025.210 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.211 (0) Table di5skg_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1025) in 0.00 seconds
+0025.218 (0) Table di5skg_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.5 KB)
+0025.222 (0) Table di5skg_woocommerce_shipping_zones: Total expected rows (via COUNT): 2
+0025.223 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.224 (0) Table di5skg_woocommerce_shipping_zones: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=785) in 0.00 seconds
+0025.230 (0) Table di5skg_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0025.235 (0) Table di5skg_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0025.236 (0) Table di5skg_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=872) in 0.00 seconds
+0025.242 (0) Table di5skg_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0025.248 (0) Table di5skg_woocommerce_tax_rates: Total expected rows (via COUNT): 3
+0025.249 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.251 (0) Table di5skg_woocommerce_tax_rates: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1554) in 0.00 seconds
+0025.260 (0) Table di5skg_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0025.261 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\wamp64\www\wordpress-dev/wp-content/updraft/backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db.gz (line 1976, C:\wamp64\www\wordpress-dev\wp-content\plugins\updraftplus\backup.php)
+0025.264 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_options.table.tmpr1515.gz (1/54/fopen): adding to final database dump
+0025.271 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_options.table.gz (2/54/fopen): adding to final database dump
+0025.272 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_users.table.tmpr3.gz (3/54/fopen): adding to final database dump
+0025.273 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_users.table.gz (4/54/fopen): adding to final database dump
+0025.274 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_usermeta.table.tmpr65.gz (5/54/fopen): adding to final database dump
+0025.274 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_usermeta.table.gz (6/54/fopen): adding to final database dump
+0025.275 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_actionscheduler_actions.table.tmpr215.gz (7/54/fopen): adding to final database dump
+0025.276 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_actionscheduler_actions.table.gz (8/54/fopen): adding to final database dump
+0025.277 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_actionscheduler_claims.table.tmpr0.gz (9/54/fopen): adding to final database dump
+0025.278 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_actionscheduler_claims.table.gz (10/54/fopen): adding to final database dump
+0025.279 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_actionscheduler_groups.table.tmpr6.gz (11/54/fopen): adding to final database dump
+0025.280 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_actionscheduler_groups.table.gz (12/54/fopen): adding to final database dump
+0025.281 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_actionscheduler_logs.table.tmpr188.gz (13/54/fopen): adding to final database dump
+0025.282 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_actionscheduler_logs.table.gz (14/54/fopen): adding to final database dump
+0025.283 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_commentmeta.table.tmpr2.gz (15/54/fopen): adding to final database dump
+0025.284 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_commentmeta.table.gz (16/54/fopen): adding to final database dump
+0025.284 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_comments.table.tmpr5.gz (17/54/fopen): adding to final database dump
+0025.285 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_comments.table.gz (18/54/fopen): adding to final database dump
+0025.286 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_links.table.tmpr0.gz (19/54/fopen): adding to final database dump
+0025.286 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_links.table.gz (20/54/fopen): adding to final database dump
+0025.287 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_postmeta.table.tmpr643.gz (21/54/fopen): adding to final database dump
+0025.288 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_postmeta.table.gz (22/54/fopen): adding to final database dump
+0025.289 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_posts.table.tmpr181.gz (23/54/fopen): adding to final database dump
+0025.291 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_posts.table.gz (24/54/fopen): adding to final database dump
+0025.291 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_term_relationships.table.tmpr100001.gz (25/54/fopen): adding to final database dump
+0025.292 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_term_relationships.table.gz (26/54/fopen): adding to final database dump
+0025.293 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_term_taxonomy.table.tmpr82.gz (27/54/fopen): adding to final database dump
+0025.293 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_term_taxonomy.table.gz (28/54/fopen): adding to final database dump
+0025.294 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_termmeta.table.tmpr6.gz (29/54/fopen): adding to final database dump
+0025.295 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_termmeta.table.gz (30/54/fopen): adding to final database dump
+0025.296 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_terms.table.tmpr82.gz (31/54/fopen): adding to final database dump
+0025.297 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_terms.table.gz (32/54/fopen): adding to final database dump
+0025.298 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_category_lookup.table.tmpr1001.gz (33/54/fopen): adding to final database dump
+0025.299 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_category_lookup.table.gz (34/54/fopen): adding to final database dump
+0025.299 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_product_meta_lookup.table.tmpr174.gz (35/54/fopen): adding to final database dump
+0025.300 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_product_meta_lookup.table.gz (36/54/fopen): adding to final database dump
+0025.301 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_reserved_stock.table.tmpr1.gz (37/54/fopen): adding to final database dump
+0025.302 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_reserved_stock.table.gz (38/54/fopen): adding to final database dump
+0025.302 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_tax_rate_classes.table.tmpr3.gz (39/54/fopen): adding to final database dump
+0025.303 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_tax_rate_classes.table.gz (40/54/fopen): adding to final database dump
+0025.304 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_order_itemmeta.table.tmpr745.gz (41/54/fopen): adding to final database dump
+0025.304 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_order_itemmeta.table.gz (42/54/fopen): adding to final database dump
+0025.305 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/54/fopen): adding to final database dump
+0025.306 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_payment_tokenmeta.table.gz (44/54/fopen): adding to final database dump
+0025.306 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_sib_model_forms.table.tmpr2.gz (45/54/fopen): adding to final database dump
+0025.307 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_sib_model_forms.table.gz (46/54/fopen): adding to final database dump
+0025.307 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_sib_model_users.table.tmpr0.gz (47/54/fopen): adding to final database dump
+0025.308 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_sib_model_users.table.gz (48/54/fopen): adding to final database dump
+0025.309 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_admin_note_actions.table.tmpr849.gz (49/54/fopen): adding to final database dump
+0025.309 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_admin_note_actions.table.gz (50/54/fopen): adding to final database dump
+0025.310 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_admin_notes.table.tmpr69.gz (51/54/fopen): adding to final database dump
+0025.311 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_admin_notes.table.gz (52/54/fopen): adding to final database dump
+0025.312 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_customer_lookup.table.tmpr2.gz (53/54/fopen): adding to final database dump
+0025.313 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_customer_lookup.table.gz (54/54/fopen): adding to final database dump
+0025.313 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_download_log.table.tmpr0.gz (55/54/fopen): adding to final database dump
+0025.314 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_download_log.table.gz (56/54/fopen): adding to final database dump
+0025.315 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_etransactions_cards.table.tmpr19.gz (57/54/fopen): adding to final database dump
+0025.315 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_etransactions_cards.table.gz (58/54/fopen): adding to final database dump
+0025.316 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_etransactions_payment.table.tmpr0.gz (59/54/fopen): adding to final database dump
+0025.317 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_etransactions_payment.table.gz (60/54/fopen): adding to final database dump
+0025.317 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_order_addresses.table.tmpr9.gz (61/54/fopen): adding to final database dump
+0025.318 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_order_addresses.table.gz (62/54/fopen): adding to final database dump
+0025.318 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_order_coupon_lookup.table.tmpr1.gz (63/54/fopen): adding to final database dump
+0025.319 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_order_coupon_lookup.table.gz (64/54/fopen): adding to final database dump
+0025.319 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_order_operational_data.table.tmpr5.gz (65/54/fopen): adding to final database dump
+0025.320 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_order_operational_data.table.gz (66/54/fopen): adding to final database dump
+0025.321 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_order_product_lookup.table.tmpr95.gz (67/54/fopen): adding to final database dump
+0025.321 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_order_product_lookup.table.gz (68/54/fopen): adding to final database dump
+0025.322 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_order_stats.table.tmpr180.gz (69/54/fopen): adding to final database dump
+0025.323 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_order_stats.table.gz (70/54/fopen): adding to final database dump
+0025.323 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_order_tax_lookup.table.tmpr1001.gz (71/54/fopen): adding to final database dump
+0025.324 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_order_tax_lookup.table.gz (72/54/fopen): adding to final database dump
+0025.324 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_orders.table.tmpr180.gz (73/54/fopen): adding to final database dump
+0025.325 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_orders.table.gz (74/54/fopen): adding to final database dump
+0025.326 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_orders_meta.table.tmpr39.gz (75/54/fopen): adding to final database dump
+0025.327 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_orders_meta.table.gz (76/54/fopen): adding to final database dump
+0025.328 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_product_attributes_lookup.table.tmpr1.gz (77/54/fopen): adding to final database dump
+0025.328 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_product_attributes_lookup.table.gz (78/54/fopen): adding to final database dump
+0025.329 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_product_download_directories.table.tmpr3.gz (79/54/fopen): adding to final database dump
+0025.330 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_product_download_directories.table.gz (80/54/fopen): adding to final database dump
+0025.330 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_rate_limits.table.tmpr0.gz (81/54/fopen): adding to final database dump
+0025.331 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_rate_limits.table.gz (82/54/fopen): adding to final database dump
+0025.332 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_webhooks.table.tmpr0.gz (83/54/fopen): adding to final database dump
+0025.332 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_wc_webhooks.table.gz (84/54/fopen): adding to final database dump
+0025.333 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_api_keys.table.tmpr0.gz (85/54/fopen): adding to final database dump
+0025.334 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_api_keys.table.gz (86/54/fopen): adding to final database dump
+0025.334 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_attribute_taxonomies.table.tmpr0.gz (87/54/fopen): adding to final database dump
+0025.335 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_attribute_taxonomies.table.gz (88/54/fopen): adding to final database dump
+0025.335 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_downloadable_product_permissions.table.tmpr0.gz (89/54/fopen): adding to final database dump
+0025.336 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_downloadable_product_permissions.table.gz (90/54/fopen): adding to final database dump
+0025.337 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_log.table.tmpr0.gz (91/54/fopen): adding to final database dump
+0025.337 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_log.table.gz (92/54/fopen): adding to final database dump
+0025.338 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_order_items.table.tmpr106.gz (93/54/fopen): adding to final database dump
+0025.339 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_order_items.table.gz (94/54/fopen): adding to final database dump
+0025.339 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_payment_tokens.table.tmpr0.gz (95/54/fopen): adding to final database dump
+0025.340 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_payment_tokens.table.gz (96/54/fopen): adding to final database dump
+0025.340 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_sessions.table.tmpr5.gz (97/54/fopen): adding to final database dump
+0025.341 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_sessions.table.gz (98/54/fopen): adding to final database dump
+0025.342 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_shipping_zone_locations.table.tmpr12.gz (99/54/fopen): adding to final database dump
+0025.343 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_shipping_zone_locations.table.gz (100/54/fopen): adding to final database dump
+0025.344 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_shipping_zone_methods.table.tmpr6.gz (101/54/fopen): adding to final database dump
+0025.344 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_shipping_zone_methods.table.gz (102/54/fopen): adding to final database dump
+0025.345 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_shipping_zones.table.tmpr3.gz (103/54/fopen): adding to final database dump
+0025.346 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_shipping_zones.table.gz (104/54/fopen): adding to final database dump
+0025.346 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_tax_rate_locations.table.tmpr0.gz (105/54/fopen): adding to final database dump
+0025.347 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_tax_rate_locations.table.gz (106/54/fopen): adding to final database dump
+0025.348 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_tax_rates.table.tmpr4.gz (107/54/fopen): adding to final database dump
+0025.348 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db-table-di5skg_woocommerce_tax_rates.table.gz (108/54/fopen): adding to final database dump
+0025.355 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db.gz: finished writing out complete database file (378.2 KB)
+0025.401 (0) Total database tables backed up: 54 (backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db.gz, size: 387411, sha1: af36b3ea3ad6a07669915bce43102a9d030ec583, sha256: 70c3a78c69477e662ec79b76d4056cc6b086cb12aceba734ffd337cd14ae233a)
+0025.410 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-plugins.zip: plugins: This file has already been successfully uploaded
+0025.411 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-themes.zip: themes: This file has already been successfully uploaded
+0025.412 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-uploads.zip: uploads: This file has already been successfully uploaded
+0025.413 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-others.zip: others: This file has already been successfully uploaded
+0025.414 (0) backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db.gz: db: This file has not yet been successfully uploaded: will queue
+0025.415 (0) Saving backup history. Total backup size: 70.6 MB
+0025.419 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0025.422 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0025.423 (0) No remote despatch: user chose no remote backup service
+0025.424 (0) Recording as successfully uploaded: backup_2024-01-31-1427_WordPress_Dev_JUIN_217901636019-db.gz
+0025.428 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0025.431 (0) Number of backup sets in history: 2; groups (db): 1
+0025.432 (0) Examining (for databases) backup set with group_id=0, nonce=217901636019, datestamp=1706707671 (Jan 31 2024 13:27:51)
+0025.432 (0) This backup set is the backup set just made, so will not be deleted.
+0025.432 (0) Examining (for databases) backup set with group_id=0, nonce=08a70bdbc032, datestamp=1706706426 (Jan 31 2024 13:07:06)
+0025.432 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0025.433 (0) Number of backup sets in history: 2; groups (files): 1
+0025.434 (0) Examining (for files) backup set with nonce=217901636019, datestamp=1706707671 (Jan 31 2024 13:27:51)
+0025.434 (0) This backup set is the backup set just made, so will not be deleted.
+0025.435 (0) This backup set is the backup set just made, so will not be deleted.
+0025.435 (0) This backup set is the backup set just made, so will not be deleted.
+0025.435 (0) This backup set is the backup set just made, so will not be deleted.
+0025.435 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0025.436 (0) Examining (for files) backup set with nonce=08a70bdbc032, datestamp=1706706426 (Jan 31 2024 13:07:06)
+0025.436 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0025.436 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0025.437 (0) Resume backup (217901636019, 0): finish run
+0025.439 (0) Decremented the semaphore (fd) by 1
+0025.439 (0) Semaphore (fd) unlocked
+0025.440 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0025.442 (0) The backup succeeded and is now complete
+0025.443 (0) No email will/can be sent - the user has not configured an email address.
+0025.444 (0) La sauvegarde a réussi et est maintenant terminée

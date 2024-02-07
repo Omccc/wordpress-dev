@@ -1,0 +1,2 @@
+<?php if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+$environment_variable = '{"theme":{"folder_name":"storefront","mapped_name":""},"allowed_paths":["C:\/wamp64\/www\/wordpress-dev\/wp-content\/themes"],"cache_path":"C:\/wamp64\/www\/wordpress-dev\/wp-content\/cache\/wph\/","wordpress_directory":"","site_relative_path":"\/wordpress-dev\/"}'; ?>

@@ -1,0 +1,1443 @@
+# Translation of Plugins - UPS, Mondial Relay &amp; Chronopost for WooCommerce &#8211; WCMultiShipping - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - UPS, Mondial Relay &amp; Chronopost for WooCommerce &#8211; WCMultiShipping - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-11-04 11:06:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - UPS, Mondial Relay &amp; Chronopost for WooCommerce &#8211; WCMultiShipping - Stable (latest release)\n"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_label.php:212
+#: inc/admin/classes/mondial_relay/mondial_relay_label.php:243
+msgid "Mondial Relay configuration page"
+msgstr "Page de configuration Mondial Relay"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_label.php:211
+msgid "Some fields are missing in \"Account Information\" section, please check your %s"
+msgstr "Quelques champs manquent dans la section « Informations de compte », veuillez vérifier votre configuration %s"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:183
+#: inc/admin/classes/chronopost/chronopost_settings.php:191
+#: inc/admin/classes/chronopost/chronopost_settings.php:198
+#: inc/admin/classes/chronopost/chronopost_settings.php:205
+#: inc/admin/classes/chronopost/chronopost_settings.php:212
+#: inc/admin/classes/chronopost/chronopost_settings.php:219
+#: inc/admin/classes/chronopost/chronopost_settings.php:226
+#: inc/admin/classes/chronopost/chronopost_settings.php:233
+#: inc/admin/classes/chronopost/chronopost_settings.php:240
+#: inc/admin/classes/chronopost/chronopost_settings.php:247
+#: inc/admin/classes/chronopost/chronopost_settings.php:254
+#: inc/admin/classes/chronopost/chronopost_settings.php:261
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:179
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:191
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:198
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:205
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:212
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:219
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:226
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:233
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:240
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:247
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:254
+msgid "(required)"
+msgstr "(requis)"
+
+#: inc/admin/classes/chronopost/chronopost_label.php:507
+msgid "Chronopost configuration page"
+msgstr "Page de configuration Chronopost"
+
+#: inc/admin/classes/chronopost/chronopost_label.php:506
+#: inc/admin/classes/mondial_relay/mondial_relay_label.php:242
+msgid "Some fields are missing in \"Shipping Address\" section, please check your %s"
+msgstr "Quelques champs manquent dans la section « Adresse de livraison », veuillez vérifier votre configuration %s"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_meta_box.php:93
+msgid "Insurance information"
+msgstr "Information sur l’assurance"
+
+#: inc/shipping_methods/chronopost/chronopost_ambient_relais_13.php:17
+msgid "Chronopost Ambient Relais 13"
+msgstr "Chronopost Ambient Relais 13"
+
+#: inc/shipping_methods/chronopost/chronopost_ambient_13.php:17
+msgid "Chronopost Ambient 13"
+msgstr "Chronopost Ambient 13"
+
+#: inc/shipping_methods/chronopost/chronopost_13_fresh.php:17
+msgid "Chronopost 13 Fresh"
+msgstr "Chronopost 13 Fresh"
+
+#: inc/admin/classes/chronopost/chronopost_meta_box.php:129
+msgid "Expiration date"
+msgstr "Date d’expiration"
+
+#: inc/admin/classes/abstract_classes/abstract_order.php:317
+msgid "Label successfully generated"
+msgstr "Étiquette bien générée"
+
+#: inc/helpers/helper/debug.php:41
+msgid "Send tracking link via email once the label is generated?"
+msgstr "Envoyer un lien de suivi par e-mail lorsqu’une étiquette est générée ?"
+
+#: inc/helpers/helper/debug.php:39
+msgid "Automatically generate label on these order status"
+msgstr "Générer automatiquement les étiquettes de livraison pour ces statuts de commande"
+
+#: inc/admin/classes/abstract_classes/abstract_helper.php:273
+msgid "Generate label error: A parameter is missing"
+msgstr "Erreur lors de la génération de l’étiquette : il manque un paramètre."
+
+#. Author of the plugin
+msgid "Mondial Relay WooCommerce - WCMultiShipping"
+msgstr "Mondial Relay WooCommerce - WCMultiShipping"
+
+#: inc/shipping_methods/ups/ups_worldwide_saver.php:16
+msgid "UPS - Worldwide Saver"
+msgstr "UPS - Worldwide Saver"
+
+#: inc/shipping_methods/ups/ups_worldwide_express_plus.php:16
+msgid "UPS - Worldwide Express Plus"
+msgstr "UPS - Worldwide Express Plus"
+
+#: inc/shipping_methods/ups/ups_worldwide_express.php:16
+msgid "UPS - Worldwide Express"
+msgstr "UPS - Worldwide Express"
+
+#: inc/shipping_methods/ups/ups_worldwide_expedited.php:16
+msgid "UPS - Worldwide Expedited"
+msgstr "UPS - Worldwide Expedited"
+
+#: inc/shipping_methods/ups/ups_standard.php:16
+msgid "UPS - Standard"
+msgstr "UPS - Standard"
+
+#: inc/shipping_methods/ups/ups_express_saver.php:16
+msgid "UPS - Express Saver"
+msgstr "UPS - Express Saver"
+
+#: inc/shipping_methods/ups/ups_access_point_economy.php:16
+msgid "UPS - Access Point Economy"
+msgstr "UPS - Access Point Economy"
+
+#: inc/front/pickup/ups/ups_pickup_widget.php:108
+msgid "Closed"
+msgstr "Fermé"
+
+#: inc/front/pickup/ups/ups_pickup_widget.php:85
+msgid "No pickup points available in the selected area"
+msgstr "Aucun point de retrait disponible dans la zone sélectionnée."
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:94
+msgid "On this page you can see all the confirmed order using %s as shipping method. You can also create, print, download your shipping labels."
+msgstr "Sur cette page, vous pouvez voir toutes les commandes confirmées utilisant %s comme méthode d’expédition. Vous pouvez également créer, imprimer et télécharger vos étiquettes d’expédition."
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:93
+msgid "Your %s orders"
+msgstr "Vos commandes %s"
+
+#: inc/admin/classes/ups/ups_settings.php:360
+msgid "Error with UPS API: %s"
+msgstr "Erreur avec l’API UPS : %s"
+
+#: inc/admin/classes/ups/ups_settings.php:217
+msgid "VAT Number"
+msgstr "Numéro de TVA"
+
+#: inc/admin/classes/ups/ups_settings.php:210
+msgid "Company Name"
+msgstr "Nom de l’entreprise"
+
+#: inc/admin/classes/ups/ups_settings.php:91
+msgid "API Access Key"
+msgstr "Clé d’accès API"
+
+#: inc/admin/classes/ups/ups_settings.php:84
+msgid "UPS Account Number"
+msgstr "Numéro de compte UPS"
+
+#: inc/admin/classes/ups/ups_settings.php:77
+msgid "UPS Password"
+msgstr "Mot de passe UPS"
+
+#: inc/admin/classes/ups/ups_settings.php:70
+msgid "UPS Account Username"
+msgstr "Nom de compte UPS"
+
+#: inc/admin/classes/ups/ups_settings.php:65
+msgid "UPS Account Information"
+msgstr "Information du compte UPS"
+
+#: inc/admin/classes/ups/ups_parcel.php:126
+#: inc/admin/classes/ups/ups_parcel.php:185
+msgid "Error while storing parcel labels for order %s => %s"
+msgstr "Erreur lors du stockage des étiquettes pour la commande %s => %s"
+
+#: inc/admin/classes/ups/ups_label.php:87
+msgid "Some fields are missing in \"Account Information\" section, please check your UPS configuration."
+msgstr "Quelques champs manquent dans la section « Informations de compte », veuillez vérifier votre configuration UPS."
+
+#: inc/admin/classes/ups/ups_label.php:47
+msgid "Your UPS account credentials are empty. Please set them in the UPS configuration"
+msgstr "Vos informations de connexion de compte UPS sont vides. Veuillez les définir dans la configuration UPS."
+
+#: inc/admin/classes/mondial_relay/mondial_relay_parcel.php:464
+#: inc/admin/classes/ups/ups_parcel.php:306
+msgid "Error while getting tracking numbers from order %s => No skybill number found for this order."
+msgstr "Erreur lors de l’obtention des numéros de suivi de la commande %s -> Aucun numéro Skybill trouvé pour cette commande."
+
+#: inc/admin/classes/mondial_relay/mondial_relay_parcel.php:397
+#: inc/admin/classes/ups/ups_parcel.php:239
+msgid "Error while storing parcel labels for order %s => SQL issue."
+msgstr "Erreur lors de l’enregistrement des étiquettes de colis pour la commande %s -> problème SQL."
+
+#: inc/admin/classes/mondial_relay/mondial_relay_parcel.php:383
+#: inc/admin/classes/ups/ups_parcel.php:224
+msgid "Error while storing parcel labels for order %s => Can't find inward skybill number."
+msgstr "Erreur lors de l’enregistrement des étiquettes de colis pour la commande %s -> impossible de trouver le N° de sortie Skybill."
+
+#: inc/admin/classes/mondial_relay/mondial_relay_parcel.php:376
+#: inc/admin/classes/ups/ups_parcel.php:217
+msgid "Error while storing parcel labels for order %s => Can't find outward order to attach inward label to."
+msgstr "Erreur lors de l’enregistrement des étiquettes de colis pour la commande %s -> impossible de trouver l’ordre de sortie auquel attacher l’étiquette de retour."
+
+#: inc/admin/classes/mondial_relay/mondial_relay_parcel.php:367
+#: inc/admin/classes/ups/ups_parcel.php:208
+msgid "Error while storing parcel labels for order %s => Can't split pages."
+msgstr "Erreur lors de l’enregistrement des étiquettes de colis pour la commande %s -> impossible de diviser les pages."
+
+#: inc/admin/classes/mondial_relay/mondial_relay_parcel.php:344
+msgid "Error while storing parcel labels for order %s => Label URL is missing."
+msgstr "Erreur lors de l’enregistrement des étiquettes de colis pour la commande %s -> l’URL de l’étiquette est manquante."
+
+#: inc/admin/classes/mondial_relay/mondial_relay_parcel.php:335
+#: inc/admin/classes/ups/ups_parcel.php:171
+msgid "Error while storing parcel labels for order %s => Shipment information are missing."
+msgstr "Erreur lors de l’enregistrement des étiquettes de colis pour la commande %s -> les informations de livraison sont manquantes."
+
+#: inc/admin/classes/abstract_classes/abstract_meta_box.php:137
+msgid "Generate label"
+msgstr "Générer une étiquette"
+
+#: inc/admin/classes/abstract_classes/abstract_meta_box.php:117
+#: inc/admin/classes/abstract_classes/abstract_meta_box.php:159
+msgid "You need WcMultishipping Pro Version to generate labels from your WordPress website. Please consider upgrading or use your shipping provider website to generate the label"
+msgstr "La version Pro de WcMultiShipping est nécessaire pour générer des étiquettes de livraison depuis votre site WordPress. Veuillez mettre à niveau ou utiliser le site de votre service d’expédition pour générer une étiquette."
+
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:123
+msgid "Google Maps API Key (No need to fill this one if you use another solution than Google Maps)"
+msgstr "Clé de l’API Google Maps (inutile de remplir ce champ si vous utilisez une autre solution que Google Maps)"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:110
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:108
+#: inc/admin/classes/ups/ups_settings.php:114
+msgid "Display pickup points map via  (Pro Version only)"
+msgstr "Afficher les points de retrait via (version Pro uniquement)"
+
+#: inc/admin/partials/orders/chronopost/chronopost_orders_list_table.php:79
+#: inc/admin/partials/orders/mondial_relay/mondial_relay_orders_list_table.php:77
+#: inc/admin/partials/orders/ups/ups_orders_list_table.php:76
+msgid "WcMultishipping Pro version is needed to handle shipping labels directly from your WordPress website. Click on the button below to get it."
+msgstr "La version Pro de WcMultiShipping est nécessaire pour gérer les étiquettes de livraison directement depuis votre site WordPress. Cliquez sur le bouton ci-dessous pour l’obtenir."
+
+#: inc/admin/partials/orders/chronopost/chronopost_orders_list_table.php:59
+#: inc/admin/partials/orders/mondial_relay/mondial_relay_orders_list_table.php:59
+#: inc/admin/partials/orders/ups/ups_orders_list_table.php:58
+msgid "Delete labels (Pro version only)"
+msgstr "Supprimer les étiquettes (version Pro uniquement)"
+
+#: inc/admin/partials/orders/chronopost/chronopost_orders_list_table.php:58
+#: inc/admin/partials/orders/mondial_relay/mondial_relay_orders_list_table.php:58
+#: inc/admin/partials/orders/ups/ups_orders_list_table.php:57
+msgid "Print labels (Pro version only)"
+msgstr "Imprimer les étiquettes (version Pro uniquement)"
+
+#: inc/admin/partials/orders/chronopost/chronopost_orders_list_table.php:57
+#: inc/admin/partials/orders/mondial_relay/mondial_relay_orders_list_table.php:57
+#: inc/admin/partials/orders/ups/ups_orders_list_table.php:56
+msgid "Download labels (Pro version only)"
+msgstr "Télécharger les étiquettes (version Pro uniquement)"
+
+#: inc/admin/partials/orders/chronopost/chronopost_orders_list_table.php:56
+msgid "Generate inward labels (Pro version only)"
+msgstr "Générer les étiquettes de retour (version Pro uniquement)"
+
+#: inc/admin/partials/orders/chronopost/chronopost_orders_list_table.php:55
+#: inc/admin/partials/orders/mondial_relay/mondial_relay_orders_list_table.php:56
+#: inc/admin/partials/orders/ups/ups_orders_list_table.php:55
+msgid "Generate outward labels (Pro version only)"
+msgstr "Générer les étiquettes d’envoi (version Pro uniquement)"
+
+#: inc/admin/partials/pickups/admin_pickup_selection.php:19
+msgid "Click here to ship this order with %s (Pro version only)"
+msgstr "Cliquez ici pour envoyer cette commande avec %s (version Pro uniquement)"
+
+#: inc/admin/partials/pickups/admin_pickup_selection.php:7
+msgid "Your package will be shipped to:"
+msgstr "Votre colis va être envoyé à :"
+
+#: inc/front/pickup/abstract_classes/abstract_pickup_widget.php:157
+msgid "Can't display the pick up selection button. No Google Maps Api Key set in the %s plugin configuration. Please contact the website admin."
+msgstr "Impossible d’afficher le bouton de sélection des points de retrait. Aucune clé d’API Google Maps définie dans la configuration de l’extension %s. Veuillez contacter l’administrateur du site."
+
+#: inc/front/pickup/abstract_classes/abstract_pickup_widget.php:155
+msgid "Access configuration"
+msgstr "Accéder à la configuration"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_parcel.php:251
+msgid "Parcel weight is lower than minimum value (15g)"
+msgstr "Le poids du colis est inférieur à la valeur minimum (15 g)"
+
+#: inc/admin/classes/ups/ups_settings.php:128
+msgid "Google Maps API Key (No need to fill this one if you use Mondial Relay widget)"
+msgstr "Clé d’API Google Maps (Inutile de remplir si vous utilisez le widget Mondial Relay)"
+
+#: inc/helpers/helper/debug.php:38
+msgid "Display pickup points map via"
+msgstr "Afficher la carte des points relais via"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:105
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:102
+#: inc/admin/classes/ups/ups_settings.php:109
+msgid "Pickup Points Map"
+msgstr "Carte des points relais"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_label.php:406
+msgid "Field %s format is invalid."
+msgstr "Le format du champ %s n’est pas valide."
+
+#: inc/admin/classes/mondial_relay/mondial_relay_label.php:397
+msgid "Field %s is required."
+msgstr "Le champ %s est obligatoire."
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:437
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:316
+#: inc/admin/classes/ups/ups_settings.php:293
+msgid "Export error logs"
+msgstr "Exporter les journaux d’erreur"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:432
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:311
+#: inc/admin/classes/ups/ups_settings.php:288
+msgid "Error Logs"
+msgstr "Journaux d’erreur"
+
+#: inc/resources/email/templates/wms_chronopost_tracking.php:8
+#: inc/resources/email/templates/wms_mondial_relay_tracking.php:8
+msgid "You can track your parcel using this link: %s"
+msgstr "Vous pouvez suivre votre colis en utilisant ce lien : %s"
+
+#: inc/resources/email/templates/wms_chronopost_tracking.php:4
+#: inc/resources/email/templates/wms_mondial_relay_tracking.php:4
+msgid "The label for order #%s has been generated."
+msgstr "L’étiquette d’expédition pour votre commande #%s a été générée."
+
+#: inc/resources/email/templates/wms_chronopost_tracking.php:3
+#: inc/resources/email/templates/wms_mondial_relay_tracking.php:3
+msgid "Hi %s,"
+msgstr "Bonjour %s,"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:165
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:161
+#: inc/admin/classes/ups/ups_settings.php:166
+msgid "Send tracking link via email once the label is generated? (Pro version only)"
+msgstr "Envoyer un lien de suivi par e-mail lorsqu’une étiquette est générée ? (version Pro uniquement)"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:84
+msgid "Brand Code"
+msgstr "Code Marque"
+
+#: inc/admin/classes/abstract_classes/abstract_email.php:26
+msgid "[%s] - Your %s parcel tracking"
+msgstr "[%s] - Votre suivi de commande %s"
+
+#: inc/admin/classes/abstract_classes/abstract_email.php:25
+msgid "Your %s parcel tracking"
+msgstr "Votre suivi de commande %s"
+
+#: inc/admin/classes/abstract_classes/abstract_email.php:21
+msgid "The email customer will receive once the outward label is generated (Pro version only)"
+msgstr "L’e-mail que le client recevra une fois que l’étiquette de livraison sera générée (version Pro uniquement)"
+
+#: inc/admin/classes/abstract_classes/abstract_email.php:18
+msgid "%s parcel tracking (Pro version only)"
+msgstr "Suivi de colis %s (version Pro uniquement)"
+
+#: inc/admin/classes/abstract_classes/abstract_meta_box.php:122
+#: inc/admin/classes/abstract_classes/abstract_meta_box.php:164
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:108
+msgid "Upgrade to Pro version"
+msgstr "Mettre à niveau vers la version Pro"
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:105
+msgid "Check documentation"
+msgstr "Découvrir la documentation"
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:99
+msgid "Edit tracking notification email"
+msgstr "Modifier l’e-mail de notification de suivi"
+
+#: inc/admin/partials/orders/mondial_relay/mondial_relay_orders_list_table.php:39
+msgid "Mondial Relay Shipping status (Pro version only)"
+msgstr "État de l’expédition Mondial Relay (version Pro uniquement)"
+
+#: inc/admin/classes/abstract_classes/abstract_helper.php:404
+#: inc/front/pickup/abstract_classes/abstract_pickup_widget.php:297
+msgid "Ready to ship <span class=\"count\">(%s)</span>"
+msgid_plural "Ready to ship <span class=\"count\">(%s)</span>"
+msgstr[0] "Prêt à être envoyé <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#: inc/admin/classes/abstract_classes/abstract_helper.php:392
+#: inc/front/pickup/abstract_classes/abstract_pickup_widget.php:285
+msgid "Anomaly <span class=\"count\">(%s)</span>"
+msgid_plural "Anomaly <span class=\"count\">(%s)</span>"
+msgstr[0] "Anomalie <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#: inc/admin/classes/abstract_classes/abstract_helper.php:380
+#: inc/front/pickup/abstract_classes/abstract_pickup_widget.php:273
+msgid "Delivered <span class=\"count\">(%s)</span>"
+msgid_plural "Delivered <span class=\"count\">(%s)</span>"
+msgstr[0] "Livré <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#: inc/admin/classes/abstract_classes/abstract_helper.php:368
+#: inc/front/pickup/abstract_classes/abstract_pickup_widget.php:261
+msgid "In-Transit <span class=\"count\">(%s)</span>"
+msgid_plural "In-Transit <span class=\"count\">(%s)</span>"
+msgstr[0] "En transit <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#: inc/admin/partials/pickups/mondial_relay/modal.php:9
+#: inc/front/partials/pickups/mondial_relay/modal.php:9
+msgid "Mondial Relay Pickups"
+msgstr "Points de retrait Mondial Relay"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:420
+msgid "End hour"
+msgstr "Heure de fin"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:412
+msgid "End day"
+msgstr "Jour de fin"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:404
+msgid "From hour"
+msgstr "Heure de début"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:396
+msgid "From day"
+msgstr "Jour de début"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:391
+msgid "Saturday Shipping"
+msgstr "Livraison le samedi"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:379
+msgid "Minimum amount to be insured"
+msgstr "Montant minimum pour être assuré"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:371
+msgid "Activate Ad Valorem insurance"
+msgstr "Activer l’assurance Ad Valorem"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:366
+msgid "Ad Valorem insurance"
+msgstr "Assurance Ad Valorem"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:272
+msgid "Your Billing Address"
+msgstr "Votre adresse de facturation"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:240
+#: inc/admin/classes/chronopost/chronopost_settings.php:334
+msgid "Contact Name"
+msgstr "Nom de contact"
+
+#: inc/helpers/helper/debug.php:40
+msgid "Status to set after label generation"
+msgstr "État à définir après génération de l’étiquette"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:94
+msgid "Test credentials"
+msgstr "Tester les infos de connexion"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:87
+msgid "Password"
+msgstr "Mot de Passe"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:80
+msgid "Account name"
+msgstr "Nom du compte"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:73
+msgid "Account number"
+msgstr "Numéro de compte"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:68
+msgid "Account Information"
+msgstr "Détails du compte"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:296
+msgid "Default Shipping Value (in cents)"
+msgstr "Valeur d’expédition par défaut (en centimes)"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:265
+msgid "Parcels"
+msgstr "Colis"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:261
+#: inc/admin/classes/chronopost/chronopost_settings.php:355
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:254
+#: inc/admin/classes/ups/ups_settings.php:273
+msgid "Mobile Phone"
+msgstr "Téléphone portable"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:254
+#: inc/admin/classes/chronopost/chronopost_settings.php:348
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:247
+#: inc/admin/classes/ups/ups_settings.php:266
+msgid "Phone"
+msgstr "Téléphone"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:247
+#: inc/admin/classes/chronopost/chronopost_settings.php:341
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:240
+#: inc/admin/classes/ups/ups_settings.php:259
+msgid "Email"
+msgstr "E-mail"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:212
+#: inc/admin/classes/chronopost/chronopost_settings.php:306
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:212
+#: inc/admin/classes/ups/ups_settings.php:231
+msgid "Address 2"
+msgstr "Adresse 2 :"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:198
+#: inc/admin/classes/chronopost/chronopost_settings.php:292
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:198
+#: inc/admin/classes/ups/ups_settings.php:203
+msgid "Last Name"
+msgstr "Nom de famille"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:191
+#: inc/admin/classes/chronopost/chronopost_settings.php:285
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:191
+#: inc/admin/classes/ups/ups_settings.php:196
+msgid "First Name"
+msgstr "Prénom"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:183
+#: inc/admin/classes/chronopost/chronopost_settings.php:277
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:179
+#: inc/admin/classes/ups/ups_settings.php:184
+msgid "Civility"
+msgstr "Civilité"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:178
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:174
+#: inc/admin/classes/ups/ups_settings.php:179
+msgid "Your Sender Address"
+msgstr "Votre adresse d’expéditeur"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:154
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:150
+#: inc/admin/classes/ups/ups_settings.php:155
+msgid "Status to set after label generation (Pro version only)"
+msgstr "État à définir après la génération d’une étiquette (version Pro uniquement)"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:142
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:139
+#: inc/admin/classes/ups/ups_settings.php:144
+msgid "Automatically generate label on these order status (Pro Version only)"
+msgstr "Générer automatiquement l’étiquette pour ces états de commande (version Pro uniquement)"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:135
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:134
+#: inc/admin/classes/ups/ups_settings.php:139
+msgid "Label"
+msgstr "Étiquette"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:124
+msgid "Google Maps API Key"
+msgstr "Cle d’API Google Maps"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:91
+#: inc/admin/classes/ups/ups_settings.php:98
+msgid "Access Test"
+msgstr "Test des accès"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:77
+msgid "Private Key"
+msgstr "Clé privée"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:70
+msgid "Customer Code"
+msgstr "Code Client"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:65
+msgid "Account information"
+msgstr "Détails du compte"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:57
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:54
+#: inc/admin/classes/ups/ups_settings.php:54
+msgid "Enable this shipping method?"
+msgstr "Activer cette méthode de livraison ?"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:52
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:49
+#: inc/admin/classes/ups/ups_settings.php:49
+msgid "Global configuration"
+msgstr "Configuration générale"
+
+#. Description of the plugin
+msgid "Create Chronopost & Mondial relay shipping labels and send them easily."
+msgstr "Créez des étiquettes de livraison Chronopost & Mondial Relay et envoyez les facilement."
+
+#. Plugin Name of the plugin
+msgid "Chronopost & Mondial relay pour WooCommerce - WCMultiShipping"
+msgstr "Chronopost & Mondial relay pour WooCommerce - WCMultiShipping"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:505
+msgid "The Chronopost API returns an error: %1$s (%2$s)"
+msgstr "L’API Chronopost retourne une erreur : %1$s (%2$s)"
+
+#: inc/admin/classes/chronopost/chronopost_meta_box.php:229
+#: inc/admin/classes/mondial_relay/mondial_relay_meta_box.php:185
+#: inc/admin/classes/ups/ups_meta_box.php:86
+msgid "Width"
+msgstr "Largeur"
+
+#: inc/admin/classes/chronopost/chronopost_meta_box.php:228
+#: inc/admin/classes/mondial_relay/mondial_relay_meta_box.php:184
+#: inc/admin/classes/ups/ups_meta_box.php:85
+msgid "Height"
+msgstr "Hauteur"
+
+#: inc/admin/classes/chronopost/chronopost_meta_box.php:227
+#: inc/admin/classes/mondial_relay/mondial_relay_meta_box.php:183
+#: inc/admin/classes/ups/ups_meta_box.php:84
+msgid "Length"
+msgstr "Profondeur"
+
+#: inc/admin/classes/chronopost/chronopost_meta_box.php:226
+#: inc/admin/classes/mondial_relay/mondial_relay_meta_box.php:182
+#: inc/admin/classes/ups/ups_meta_box.php:83
+msgid "Weight"
+msgstr "Poids"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_meta_box.php:135
+msgid "Shipping Value (in cents)"
+msgstr "Valeur de livraison (en centimes)"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_meta_box.php:111
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:285
+msgid "Installation Duration"
+msgstr "Durée de montage"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_meta_box.php:84
+msgid "Assurance N5"
+msgstr "Assurance N5"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_meta_box.php:81
+msgid "Assurance N4"
+msgstr "Assurance N4"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_meta_box.php:78
+msgid "Assurance N3"
+msgstr "Assurance N3"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_meta_box.php:75
+msgid "Assurance N2"
+msgstr "Assurance N2"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_meta_box.php:72
+msgid "Assurance N1"
+msgstr "Assurance N1"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_meta_box.php:69
+msgid "Without Insurance"
+msgstr "Sans assurance"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_meta_box.php:65
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:270
+msgid "Insurance"
+msgstr "Assurance"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:394
+msgid "Error with Mondial Relay API: %s"
+msgstr "Erreur avec l’API Mondial Relay  : %s"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_api_helper.php:69
+msgid "Mondial Relay ERROR - Get Label : %s => %s"
+msgstr "Erreur Mondial Relay - Obtenir l’étiquette : %s => %s"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_parcel.php:273
+msgid "Parcel weight is too big (max value = 130kg)"
+msgstr "Le poids du colis est trop gros (valeur maximale = 130 kg)"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_parcel.php:267
+msgid "Parcel weight is too big (max value = 70kg)"
+msgstr "Le poids du colis est trop gros (valeur maximale = 70 kg)"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_parcel.php:261
+msgid "Parcel weight is too big (max value = 30kg)"
+msgstr "Le poids du colis est trop gros (valeur maximale = 30 kg)"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_parcel.php:167
+#: inc/admin/classes/ups/ups_parcel.php:58
+msgid "Error while registering parcels for order => %s"
+msgstr "Erreur lors de l’enregistrement des colis pour la commande => %s"
+
+#: inc/admin/classes/mondial_relay/mondial_relay_parcel.php:135
+msgid "Shipping not available for this country"
+msgstr "La livraison n’est pas disponible pour ce pays"
+
+#: inc/admin/classes/abstract_classes/abstract_helper.php:290
+msgid "Print label error: A parameter is missing"
+msgstr "Erreur d’impression de l’étiquette : un paramètre est manquant"
+
+#: inc/admin/classes/abstract_classes/abstract_label.php:189
+msgid "Error while generating label from API => Parameter is empty."
+msgstr "Erreur lors de la génération de l’étiquette depuis l’API : un paramètre est vide."
+
+#: inc/admin/partials/orders/chronopost/chronopost_orders_list_table.php:39
+#: inc/admin/partials/orders/mondial_relay/mondial_relay_orders_list_table.php:40
+#: inc/admin/partials/orders/ups/ups_orders_list_table.php:39
+msgid "Actions"
+msgstr "Actions"
+
+#: inc/shipping_methods/mondial_relay/domicile_1_livreur.php:16
+msgid "Mondial Relay - Domicile à 1 livreur"
+msgstr "Mondial Relay - Domicile à 1 livreur"
+
+#: inc/shipping_methods/mondial_relay/point_relais.php:16
+msgid "Mondial Relay - Livraison Point Relais"
+msgstr "Mondial Relay - Livraison Point Relais"
+
+#: inc/shipping_methods/mondial_relay/colis_drive.php:16
+msgid "Mondial Relay - Livraison en Colis drive"
+msgstr "Mondial Relay - Livraison en Colis drive"
+
+#: inc/shipping_methods/mondial_relay/domicile_inf_30.php:16
+msgid "Mondial Relay - Livraison à domicile < 30kg"
+msgstr "Mondial Relay - Livraison à domicile < 30 kg"
+
+#: inc/shipping_methods/mondial_relay/domicile_2_livreurs.php:16
+msgid "Mondial Relay - Livraison à domicile à 2 livreurs"
+msgstr "Mondial Relay - Livraison à domicile à 2 livreurs"
+
+#: inc/front/pickup/chronopost/chronopost_pickup_widget.php:80
+#: inc/front/pickup/mondial_relay/mondial_relay_pickup_widget.php:79
+#: inc/front/pickup/ups/ups_pickup_widget.php:76
+msgid "Error: %s"
+msgstr "Erreur : %s"
+
+#: inc/front/pickup/mondial_relay/mondial_relay_pickup_widget.php:54
+#: inc/front/pickup/ups/ups_pickup_widget.php:54
+msgid "Unable to load pickup points: Your %s account credentials are empty. Please set them in the %s configuration"
+msgstr "Impossible de charger les points de retrait : vos infos de connexion %s ne sont pas valides. Veuillez les définir dans votre configuration %s."
+
+#: inc/admin/wms_admin_init.php:51
+msgid "Settings"
+msgstr "Réglages"
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:102
+msgid "Get help from support"
+msgstr "Obtenir l’aide du support"
+
+#: inc/front/pickup/chronopost/chronopost_pickup_widget.php:53
+msgid "Unable to load pickup points: Your Chronopost account credentials are empty. Please set them in the Chronopost configuration"
+msgstr "Impossible de charger les points de retrait : vos infos de connexion Chronopost ne sont pas valides. Veuillez les définir dans votre configuration Chronopost."
+
+#: inc/admin/partials/pickups/mondial_relay/modal.php:53
+#: inc/front/partials/pickups/mondial_relay/modal.php:53
+msgid "Ship Here"
+msgstr "Livrer ici"
+
+#: inc/admin/classes/abstract_classes/abstract_settings.php:51
+msgid "There is no log"
+msgstr "Il n’y a aucun journal."
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:515
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:388
+#: inc/admin/classes/ups/ups_settings.php:355
+msgid "These account information are valid"
+msgstr "Ces informations de compte sont valides."
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:510
+msgid "These account information are not valid"
+msgstr "Ces informations de comptes ne sont pas valides."
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:496
+msgid "An issue occurred while calling the Chronopost API please try again"
+msgstr "Une erreur s’est produite lors de l’appel de l’API Chronopost, veuillez réessayer"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:476
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:358
+#: inc/admin/classes/ups/ups_settings.php:336
+msgid "Credentials not found"
+msgstr "Infos de connexion non trouvées."
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:39
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:36
+#: inc/admin/classes/ups/ups_settings.php:33
+msgid "Do not change status"
+msgstr "Ne pas modifier l’état"
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:442
+msgid "Unable to delete label => No tracking number found for selected orders"
+msgstr "Impossible de supprimer l’étiquette => Aucun numéro de suivi trouvé pour les commandes sélectionnées."
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:432
+msgid "Unable to delete label => No order selected."
+msgstr "Impossible de supprimer l’étiquette => Aucun numéro de suivi trouvé pour la commande sélectionnée."
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:409
+msgid "Unable to print label => No tracking number found for selected orders"
+msgstr "Impossible d’imprimer l’étiquette => Aucun numéro de suivi trouvé pour les commandes sélectionnées"
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:399
+msgid "Unable to print label => No order selected."
+msgstr "Impossible d’imprimer l’étiquette => Aucune commande sélectionnée."
+
+#: inc/admin/classes/abstract_classes/abstract_helper.php:341
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:386
+msgid "Unable to download label => No tracking number found"
+msgstr "Impossible de télécharger l’étiquette => Aucun numéro de suivi trouvé pour la commande sélectionnée."
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:376
+msgid "Unable to download label => No order selected."
+msgstr "Impossible de télécharger l’étiquette => Aucune commande sélectionnée."
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:369
+msgid "Error while generating inward labels for order n°%s."
+msgstr "Erreur lors de la génération de l’étiquette de retour pour la commande n°%s."
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:368
+msgid "Inward labels for order n°%s successfully generated."
+msgstr "L’étiquette de retour pour la commande n°%s a bien été générée."
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:335
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:355
+msgid "Unable to generate label => No order selected."
+msgstr "Impossible de générer l’étiquette => Aucune commande sélectionnée."
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:348
+msgid "Error while generating outward labels for order n°%s."
+msgstr "Erreur lors de la génération des étiquettes de livraison pour la commandes n°%s."
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:347
+msgid "Outward labels for order n°%s successfully generated."
+msgstr "Les étiquettes d’envoi pour la commande n°%s ont bien été générées."
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:329
+msgid "Delete outward label"
+msgstr "Supprimer l’étiquette d’envoi"
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:316
+msgid "Print label"
+msgstr "Imprimer l’étiquette"
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:303
+msgid "Download label"
+msgstr "Télécharger l’étiquette"
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:213
+msgid "Order Status"
+msgstr "État de la commande"
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:153
+msgid "Shipping Methods"
+msgstr "Méthodes de livraison"
+
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:143
+msgid "Filter"
+msgstr "Filtre"
+
+#: inc/helpers/helper/debug.php:37
+msgid "Delete labels"
+msgstr "Supprimer les étiquettes"
+
+#: inc/helpers/helper/debug.php:36
+msgid "Print labels"
+msgstr "Imprimer les étiquettes"
+
+#: inc/helpers/helper/debug.php:35
+msgid "Download labels"
+msgstr "Télécharger les étiquettes"
+
+#: inc/admin/partials/orders/chronopost/chronopost_orders_list_table.php:38
+#: inc/admin/partials/orders/mondial_relay/mondial_relay_orders_list_table.php:38
+#: inc/admin/partials/orders/ups/ups_orders_list_table.php:38
+msgid "Order status"
+msgstr "État de la commande"
+
+#: inc/admin/partials/orders/chronopost/chronopost_orders_list_table.php:37
+#: inc/admin/partials/orders/mondial_relay/mondial_relay_orders_list_table.php:37
+#: inc/admin/partials/orders/ups/ups_orders_list_table.php:37
+msgid "Shipping method"
+msgstr "Mode de livraison"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:233
+#: inc/admin/classes/chronopost/chronopost_settings.php:327
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:233
+#: inc/admin/classes/ups/ups_settings.php:252
+#: inc/admin/partials/orders/abstract_classes/wms_orders_list_table.php:185
+#: inc/admin/partials/orders/chronopost/chronopost_orders_list_table.php:36
+#: inc/admin/partials/orders/mondial_relay/mondial_relay_orders_list_table.php:36
+#: inc/admin/partials/orders/ups/ups_orders_list_table.php:36
+msgid "Country"
+msgstr "Pays"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:205
+#: inc/admin/classes/chronopost/chronopost_settings.php:299
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:205
+#: inc/admin/classes/ups/ups_settings.php:224
+#: inc/admin/partials/orders/chronopost/chronopost_orders_list_table.php:35
+#: inc/admin/partials/orders/mondial_relay/mondial_relay_orders_list_table.php:35
+#: inc/admin/partials/orders/ups/ups_orders_list_table.php:35
+msgid "Address"
+msgstr "Adresse"
+
+#: inc/admin/partials/orders/chronopost/chronopost_orders_list_table.php:34
+#: inc/admin/partials/orders/mondial_relay/mondial_relay_orders_list_table.php:34
+#: inc/admin/partials/orders/ups/ups_orders_list_table.php:34
+msgid "Customer"
+msgstr "Client"
+
+#: inc/admin/partials/orders/chronopost/chronopost_orders_list_table.php:33
+#: inc/admin/partials/orders/mondial_relay/mondial_relay_orders_list_table.php:33
+#: inc/admin/partials/orders/ups/ups_orders_list_table.php:33
+msgid "Date"
+msgstr "Date"
+
+#: inc/admin/partials/orders/chronopost/chronopost_orders_list_table.php:32
+#: inc/admin/partials/orders/mondial_relay/mondial_relay_orders_list_table.php:32
+#: inc/admin/partials/orders/ups/ups_orders_list_table.php:32
+msgid "ID"
+msgstr "ID"
+
+#: inc/admin/partials/shipping/wms_partial_shipping_rates.php:79
+msgid "Delete selected"
+msgstr "Supprimer la sélection"
+
+#: inc/admin/partials/shipping/wms_partial_shipping_rates.php:77
+msgid "Add rate"
+msgstr "Ajouter un taux"
+
+#: inc/admin/partials/shipping/wms_partial_shipping_rates.php:69
+msgid "Price"
+msgstr "Prix"
+
+#: inc/admin/partials/shipping/wms_partial_shipping_rates.php:66
+msgid "Shipping class"
+msgstr "Classe de livraison"
+
+#: inc/admin/partials/shipping/wms_partial_shipping_rates.php:62
+#: inc/admin/partials/shipping/wms_partial_shipping_rates.php:63
+msgid "Excluded"
+msgstr "Exclu"
+
+#: inc/admin/partials/shipping/wms_partial_shipping_rates.php:60
+msgid "To"
+msgstr "À :"
+
+#: inc/admin/partials/shipping/wms_partial_shipping_rates.php:56
+#: inc/admin/partials/shipping/wms_partial_shipping_rates.php:57
+msgid "Included"
+msgstr "Inclus"
+
+#: inc/admin/partials/shipping/wms_partial_shipping_rates.php:54
+msgid "From "
+msgstr "De : "
+
+#: inc/admin/partials/shipping/wms_partial_shipping_rates.php:47
+msgid "Shipping rates"
+msgstr "Frais de livraison"
+
+#: inc/admin/partials/shipping/wms_partial_shipping_rates.php:37
+msgid "Delete the selected rates?"
+msgstr "Supprimer les taux sélectionnés ?"
+
+#: inc/admin/partials/shipping/wms_partial_shipping_rates.php:22
+#: inc/admin/partials/shipping/wms_partial_shipping_rates.php:119
+msgid "All products"
+msgstr "Tous les produits"
+
+#: inc/admin/classes/abstract_classes/abstract_helper.php:349
+msgid "Unable to download label => Invalid tracking number params"
+msgstr "Impossible de télécharger l’étiquette => Le paramètre du numéro de suivi est non valide."
+
+#: inc/admin/classes/abstract_classes/abstract_helper.php:307
+#: inc/admin/classes/abstract_classes/abstract_helper.php:313
+msgid "Unable to delete label => Nothing to delete"
+msgstr "Impossible de supprimer l’étiquette => Il n’y a rien à supprimer."
+
+#: inc/admin/classes/abstract_classes/abstract_helper.php:242
+msgid "You've been redirected to the listing as there has been an issue while trying to generate the label"
+msgstr "Vous avez été redirigé vers la liste des commandes Chronopost car il y a eu une erreur lors de la génération de l’étiquette."
+
+#: inc/admin/classes/abstract_classes/abstract_helper.php:105
+msgid "Orders per page"
+msgstr "Commandes par page"
+
+#: inc/admin/classes/chronopost/chronopost_order.php:58
+#: inc/admin/classes/mondial_relay/mondial_relay_order.php:46
+#: inc/admin/classes/ups/ups_order.php:51
+msgid "Unable to delete => Nothing to delete"
+msgstr "Impossible de supprimer => Rien à supprimer"
+
+#: inc/admin/classes/abstract_classes/abstract_order.php:306
+msgid "Inward label can not be generated for order n°%s as the order has not been sent yet"
+msgstr "L’étiquette de retour ne peut pas être générée pour la commande n°%s car la commande n’a pas encore été expédiée."
+
+#: inc/admin/classes/abstract_classes/abstract_order.php:286
+msgid "Can not get shipping method name => No order selected."
+msgstr "Impossible de récupérer le nom de la méthode de livraison => Pas de commande sélectionnée."
+
+#: inc/admin/classes/chronopost/chronopost_api_helper.php:156
+msgid "The %s package can not be cancelled because it was already handled by Chronopost"
+msgstr "Le colis %s ne peut pas être annulé car il a déjà été pris en compte par Chronopost"
+
+#: inc/admin/classes/chronopost/chronopost_api_helper.php:144
+msgid "The %s package does not belong to the contract passed as parameter or has not yet been registered in the Chronopost tracking system"
+msgstr "Le colis %s ne correspond pas au contrat passé en paramètre ou n’a pas encore été inscrit dans le système de suivi Chronopost."
+
+#: inc/admin/classes/chronopost/chronopost_api_helper.php:139
+msgid "An error occured when cancelling the %s label"
+msgstr "Une erreur est survenue lors de l’annulation de l’étiquette %s"
+
+#: inc/admin/classes/chronopost/chronopost_api_helper.php:132
+msgid "The label %s was cancelled"
+msgstr "L’étiquette %s a été annulée."
+
+#: inc/admin/classes/chronopost/chronopost_api_helper.php:109
+#: inc/admin/classes/chronopost/chronopost_api_helper.php:183
+msgid "------------ Details: %s"
+msgstr "------------ Détails : %s"
+
+#: inc/admin/classes/chronopost/chronopost_api_helper.php:106
+#: inc/admin/classes/chronopost/chronopost_api_helper.php:180
+msgid "Webservice error: Soap Connection Issue (get_labels_from_reservation)"
+msgstr "Erreur dans le web service : Erreur de connexion SOAP (get_labels_from_reservation)"
+
+#: inc/admin/classes/chronopost/chronopost_api_helper.php:79
+#: inc/admin/classes/chronopost/chronopost_api_helper.php:83
+#: inc/admin/classes/mondial_relay/mondial_relay_api_helper.php:54
+msgid "Webservice error: Soap Connection Issue (shippingMultiParcelWithReservationV3)"
+msgstr "Erreur dans le service web : erreur de connexion SOAP (shippingMultiParcelWithReservationV3)"
+
+#: inc/admin/classes/abstract_classes/abstract_label.php:402
+msgid "Label %s successfully deleted"
+msgstr "L’étiquette %s a bien été supprimée !"
+
+#: inc/admin/classes/abstract_classes/abstract_label.php:400
+msgid "Unable to delete label %s"
+msgstr "Impossible de supprimer l’étiquette %s"
+
+#: inc/admin/classes/abstract_classes/abstract_label.php:205
+msgid "Error while generating label from tracking number => API return is invalid."
+msgstr "Erreur lors de la génération de l’étiquette depuis le N° de suivi -> la réponse de l’API n’est pas valide."
+
+#: inc/admin/classes/abstract_classes/abstract_label.php:138
+msgid "Can't delete label => No tracking number selected"
+msgstr "Impossible de supprimer le libellé => Aucun numéro de suivi sélectionné."
+
+#: inc/admin/classes/abstract_classes/abstract_label.php:89
+msgid "Unable to get info from tracking number => Tracking numbers are empty"
+msgstr "Erreur de récupération de l’information depuis le numéro de suivi => Les numéros de suivi sont vides."
+
+#: inc/admin/classes/abstract_classes/abstract_label.php:30
+msgid "Error while storing label in DB => A parameter is missing"
+msgstr "Erreur lors du stockage de l’étiquette dans la base de données => Un paramètre est manquant."
+
+#: inc/admin/classes/chronopost/chronopost_parcel.php:422
+#: inc/admin/classes/mondial_relay/mondial_relay_parcel.php:444
+#: inc/admin/classes/ups/ups_parcel.php:286
+msgid "Error while getting tracking numbers: No order(s) selected"
+msgstr "Erreur lors de la récupération des numéros de suivi : pas de commande(s) sélectionnée(s)"
+
+#: inc/admin/classes/chronopost/chronopost_parcel.php:260
+#: inc/admin/classes/mondial_relay/mondial_relay_parcel.php:285
+#: inc/admin/classes/ups/ups_parcel.php:110
+msgid "Error while storing information => Missing parameter."
+msgstr "Erreur lors de la sauvegarde d’informations => Un paramètre est manquant."
+
+#: inc/admin/classes/chronopost/chronopost_parcel.php:247
+msgid "Parcel dimensions exceed the total (L+2H+2l) size limit (%s cm)"
+msgstr "Les dimensions du colis (L + 2H + 2l) dépassent la limite de taille (%s cm)"
+
+#: inc/admin/classes/chronopost/chronopost_parcel.php:242
+msgid "Parcel dimensions exceed the size limit (%s cm)"
+msgstr "Les dimensions du colis dépassent la taille limite (%s cm)"
+
+#: inc/admin/classes/chronopost/chronopost_parcel.php:237
+msgid "Parcel dimensions exceed the weight limit (%s kg)"
+msgstr "Les dimensions du colis dépassent le poids limite (%s)"
+
+#: inc/admin/classes/chronopost/chronopost_parcel.php:217
+#: inc/admin/classes/mondial_relay/mondial_relay_parcel.php:237
+msgid "Parcel weight is invalid. You should check the order's product weights or the parcel weight (in your order edition page)."
+msgstr "Le poids de la commande n’est pas valide. Vous devriez vérifier le poids des produits de la commande ou le poids du colis (dans la page d’édition de la commande)."
+
+#: inc/admin/classes/chronopost/chronopost_parcel.php:202
+#: inc/admin/classes/mondial_relay/mondial_relay_parcel.php:219
+msgid "Can't check dimensions => No order selected"
+msgstr "Impossible de vérifier les dimensions => Aucune commande sélectionnée."
+
+#: inc/admin/classes/chronopost/chronopost_parcel.php:456
+#: inc/admin/classes/mondial_relay/mondial_relay_parcel.php:478
+#: inc/admin/classes/ups/ups_parcel.php:320
+msgid "Error while getting dimensions => Order is empty."
+msgstr "Erreur lors de la récupération des dimensions => La commande est vide."
+
+#: inc/admin/classes/chronopost/chronopost_parcel.php:174
+#: inc/admin/classes/mondial_relay/mondial_relay_parcel.php:191
+#: inc/admin/classes/ups/ups_parcel.php:77
+msgid "Error while getting dimensions => No order items."
+msgstr "Erreur lors de la récupération des dimensions => Aucun élément dans la commande."
+
+#: inc/admin/classes/chronopost/chronopost_parcel.php:134
+msgid "Return labels are not available for this country"
+msgstr "Les étiquettes de retour ne sont pas disponibles pour ce pays."
+
+#: inc/admin/classes/chronopost/chronopost_parcel.php:124
+#: inc/admin/classes/mondial_relay/mondial_relay_parcel.php:125
+#: inc/admin/classes/ups/ups_parcel.php:37
+msgid "Error while registering parcels for order => Order is empty."
+msgstr "Erreur lors de l’enregistrement des colis pour la commande => La commande est vide."
+
+#: inc/admin/classes/chronopost/chronopost_meta_box.php:267
+msgid "Invalid value for parcel dimensions. Process blocked for security reasons."
+msgstr "Les valeurs des dimensions du colis ne sont pas valides. Le processus a été bloqué pour des raisons de sécurité."
+
+#: inc/admin/classes/abstract_classes/abstract_meta_box.php:179
+msgid "Generate inward labels"
+msgstr "Générer les étiquettes retour"
+
+#: inc/helpers/helper/debug.php:34
+msgid "Generate outward labels"
+msgstr "Générer les étiquettes d’envoi"
+
+#: inc/admin/classes/chronopost/chronopost_meta_box.php:207
+#: inc/admin/classes/mondial_relay/mondial_relay_meta_box.php:164
+#: inc/admin/classes/ups/ups_meta_box.php:64
+msgid "Parcels number"
+msgstr "Numéros de colis"
+
+#: inc/admin/classes/chronopost/chronopost_meta_box.php:182
+msgid "Not active"
+msgstr "Inactif"
+
+#: inc/admin/classes/chronopost/chronopost_meta_box.php:165
+msgid "Ship On Saturday"
+msgstr "Livrer le samedi"
+
+#: inc/admin/classes/chronopost/chronopost_meta_box.php:102
+msgid "(Max value: %d)"
+msgstr "(Value maximale : %d)"
+
+#: inc/admin/classes/chronopost/chronopost_meta_box.php:100
+msgid "Insurance amount"
+msgstr "Montant de l’assurance"
+
+#: inc/admin/classes/chronopost/chronopost_meta_box.php:93
+#: inc/admin/classes/chronopost/chronopost_meta_box.php:176
+msgid "Yes"
+msgstr "Oui"
+
+#: inc/admin/classes/chronopost/chronopost_meta_box.php:90
+#: inc/admin/classes/chronopost/chronopost_meta_box.php:170
+msgid "No"
+msgstr "Non"
+
+#: inc/admin/classes/chronopost/chronopost_meta_box.php:86
+msgid "Advalorem insurance"
+msgstr "Assurance Advalorem"
+
+#: inc/admin/classes/abstract_classes/abstract_meta_box.php:98
+msgid "Download inward label"
+msgstr "Télécharger l’étiquette retour"
+
+#: inc/admin/classes/abstract_classes/abstract_meta_box.php:90
+msgid "Inward Labels"
+msgstr "Étiquettes de retour"
+
+#: inc/admin/classes/abstract_classes/abstract_meta_box.php:81
+msgid "Download outward labels"
+msgstr "Télécharger les étiquettes d’envoi"
+
+#: inc/admin/classes/abstract_classes/abstract_meta_box.php:69
+msgid "Outward Labels"
+msgstr "Étiquettes d’envoi"
+
+#: inc/shipping_methods/chronopost/chronopost_same_day.php:17
+msgid "Chronopost Same Day"
+msgstr "Chronopost le jour même"
+
+#: inc/shipping_methods/chronopost/chronopost_13.php:17
+msgid "Chronopost 13"
+msgstr "Chronopost 13"
+
+#: inc/shipping_methods/chronopost/chronopost_express.php:17
+msgid "Chronopost Express"
+msgstr "Chronopost Express"
+
+#: inc/shipping_methods/chronopost/chronopost_relais.php:17
+msgid "Chronopost Relais"
+msgstr "Chronopost Relais"
+
+#: inc/shipping_methods/chronopost/chronopost_18.php:17
+msgid "Chronopost 18"
+msgstr "Chronopost 18"
+
+#: inc/shipping_methods/abstract_shipping.php:65
+msgid "Order Amount"
+msgstr "Montant de la commande"
+
+#: inc/shipping_methods/abstract_shipping.php:62
+msgid "Order Weight"
+msgstr "Poids de la commande"
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:124
+msgid "Choose whether you want to allow shipment to be delivered on Saturday"
+msgstr "Choisissez si vous souhaitez autoriser la livraison le samedi"
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:122
+msgid "Deliver on Saturday?"
+msgstr "Livraison le samedi ?"
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:113
+#: inc/shipping_methods/mondial_relay/mondial_relay_abstract_shipping.php:82
+#: inc/shipping_methods/ups/ups_abstract_shipping.php:83
+msgid "Rates by weight"
+msgstr "Frais selon le poids"
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:111
+#: inc/shipping_methods/mondial_relay/mondial_relay_abstract_shipping.php:80
+#: inc/shipping_methods/ups/ups_abstract_shipping.php:81
+msgid "Rates"
+msgstr "Frais"
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:102
+#: inc/shipping_methods/mondial_relay/mondial_relay_abstract_shipping.php:71
+#: inc/shipping_methods/ups/ups_abstract_shipping.php:72
+msgid "Add a fix weight (kg) to the order to include it in the final weight"
+msgstr "Ajouter un poids fixe (kg) à la commande pour l’ajouter au poids final"
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:100
+#: inc/shipping_methods/mondial_relay/mondial_relay_abstract_shipping.php:69
+#: inc/shipping_methods/ups/ups_abstract_shipping.php:70
+msgid "Packaging weight (kg)"
+msgstr "Poids de l’emballage (kg)"
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:91
+#: inc/shipping_methods/mondial_relay/mondial_relay_abstract_shipping.php:60
+#: inc/shipping_methods/ups/ups_abstract_shipping.php:61
+msgid "Add fix management fees to the shipping price"
+msgstr "Ajouter des frais fixes de gestion au prix de livraison"
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:89
+#: inc/shipping_methods/mondial_relay/mondial_relay_abstract_shipping.php:58
+#: inc/shipping_methods/ups/ups_abstract_shipping.php:59
+msgid "Add management fees"
+msgstr "Ajouter des frais fixes de gestion"
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:85
+msgid "Fix amount"
+msgstr "Montant fixe"
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:84
+msgid "Percentage"
+msgstr "Pourcentage"
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:80
+msgid "Set if you want the value to be in percentage or a fix amount"
+msgstr "Définissez si vous souhaitez que la valeur soit un pourcentage ou un montant fixe."
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:78
+msgid "Value type"
+msgstr "Type de valeur"
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:69
+msgid "This value will be added to the estimated shipping amount return by Chronopost service"
+msgstr "Cette valeur va être ajoutée au prix de livraison estimé retourné par les services Chronopost."
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:67
+msgid "Value to add to Quickcost"
+msgstr "Valeur à ajouter à Quickcost"
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:62
+msgid "Quickcost will calculate the amount of the shipping according to Chronopost rates"
+msgstr "Quickcost calculera le montant de livraison en fonction des frais Chronopost."
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:60
+msgid "Activate Quickcost"
+msgstr "Activer Quickcost"
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:55
+#: inc/shipping_methods/mondial_relay/mondial_relay_abstract_shipping.php:53
+#: inc/shipping_methods/ups/ups_abstract_shipping.php:54
+msgid "Set the minimal amount of the order for shipping price to be free"
+msgstr "Définir le montant minimum de commande pour que le prix de livraison soit gratuit"
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:53
+#: inc/shipping_methods/mondial_relay/mondial_relay_abstract_shipping.php:51
+#: inc/shipping_methods/ups/ups_abstract_shipping.php:52
+msgid "Free if the amount is superior than"
+msgstr "Gratuit si le prix de livraison est supérieur à"
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:48
+#: inc/shipping_methods/mondial_relay/mondial_relay_abstract_shipping.php:46
+#: inc/shipping_methods/ups/ups_abstract_shipping.php:47
+msgid "Check if you want this shipping methods to be always free"
+msgstr "Cocher si vous souhaitez que cette méthode de livraison soit toujours gratuite."
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:46
+#: inc/shipping_methods/mondial_relay/mondial_relay_abstract_shipping.php:44
+#: inc/shipping_methods/ups/ups_abstract_shipping.php:45
+msgid "Always free"
+msgstr "Toujours gratuit"
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:41
+#: inc/shipping_methods/mondial_relay/mondial_relay_abstract_shipping.php:39
+#: inc/shipping_methods/ups/ups_abstract_shipping.php:40
+msgid "Decide whether pricing is calculated based on weight or cart amount"
+msgstr "Décidez si vous souhaitez que le prix de livraison soit basé sur le poids ou sur le montant du panier."
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:39
+#: inc/shipping_methods/mondial_relay/mondial_relay_abstract_shipping.php:37
+#: inc/shipping_methods/ups/ups_abstract_shipping.php:38
+msgid "Pricing Condition"
+msgstr "Conditions de tarif "
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:27
+#: inc/shipping_methods/mondial_relay/mondial_relay_abstract_shipping.php:25
+#: inc/shipping_methods/ups/ups_abstract_shipping.php:26
+msgid "This controls the title seen by the user during checkout."
+msgstr "Cela détermine le titre que les utilisateurs verront durant la commande."
+
+#: inc/shipping_methods/chronopost/chronopost_abstract_shipping.php:25
+#: inc/shipping_methods/mondial_relay/mondial_relay_abstract_shipping.php:23
+#: inc/shipping_methods/ups/ups_abstract_shipping.php:24
+msgid "Title"
+msgstr "Titre"
+
+#: inc/shipping_methods/chronopost/chronopost_classic.php:17
+msgid "Chronopost Classic"
+msgstr "Chronopost Classic"
+
+#: inc/shipping_methods/chronopost/chronopost_relais_europe.php:17
+msgid "Chronopost Relais Europe"
+msgstr "Chronopost Relais Europe"
+
+#: inc/shipping_methods/chronopost/chronopost_relais_dom.php:17
+msgid "Chronopost Relais dom"
+msgstr "Chronopost Relais DOM"
+
+#: inc/shipping_methods/chronopost/chronopost_10.php:16
+msgid "Chronopost 10"
+msgstr "Chronopost 10"
+
+#: inc/front/pickup/abstract_classes/abstract_pickup_widget.php:210
+#: inc/front/pickup/abstract_classes/abstract_pickup_widget.php:229
+msgid "Please select a pick-up point"
+msgstr "Veuillez sélectionner un point de retrait"
+
+#: inc/front/pickup/abstract_classes/abstract_pickup_widget.php:95
+msgid "A parameter is missing"
+msgstr "Un paramètre est manquant"
+
+#: inc/admin/classes/chronopost/chronopost_label.php:381
+msgid "Your Chronopost account credentials are empty. Please set them in the Chronopost configuration"
+msgstr "Vos informations de connexion de compte Chronopost sont vides. Veuillez les définir dans la configuration Chronopost."
+
+#: inc/front/pickup/chronopost/chronopost_pickup_widget.php:42
+#: inc/front/pickup/mondial_relay/mondial_relay_pickup_widget.php:41
+#: inc/front/pickup/ups/ups_pickup_widget.php:41
+msgid "Cannot find city or zip code"
+msgstr "Impossible de trouver la ville ou le code postal."
+
+#: inc/admin/classes/abstract_classes/abstract_helper.php:484
+#: inc/front/pickup/abstract_classes/abstract_pickup_widget.php:154
+msgid "Can't display the pick up selection button. No Google Maps Api Key set in your %s plugin configuration."
+msgstr "Impossible d’afficher les bouton de sélection de points retrait. Aucune clé d’API Google Maps définie dans les réglages de votre extension Chronopost."
+
+#: inc/admin/partials/pickups/google_maps/modal.php:37
+#: inc/admin/partials/pickups/mondial_relay/modal.php:40
+#: inc/admin/partials/pickups/openstreetmap/modal.php:38
+#: inc/front/partials/pickups/google_maps/modal.php:31
+#: inc/front/partials/pickups/mondial_relay/modal.php:40
+#: inc/front/partials/pickups/openstreetmap/modal.php:36
+msgid "Find a pickup point"
+msgstr "Trouver un point relais"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:219
+#: inc/admin/classes/chronopost/chronopost_settings.php:313
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:219
+#: inc/admin/classes/ups/ups_settings.php:238
+#: inc/admin/partials/pickups/google_maps/modal.php:32
+#: inc/admin/partials/pickups/mondial_relay/modal.php:35
+#: inc/admin/partials/pickups/openstreetmap/modal.php:33
+#: inc/front/partials/pickups/google_maps/modal.php:28
+#: inc/front/partials/pickups/mondial_relay/modal.php:35
+#: inc/front/partials/pickups/openstreetmap/modal.php:33
+msgid "Zip Code"
+msgstr "Code postal"
+
+#: inc/admin/partials/pickups/google_maps/modal.php:26
+#: inc/admin/partials/pickups/mondial_relay/modal.php:29
+#: inc/admin/partials/pickups/openstreetmap/modal.php:27
+#: inc/front/partials/pickups/mondial_relay/modal.php:29
+msgid "Select a country"
+msgstr "Sélectionner un pays"
+
+#: inc/admin/classes/chronopost/chronopost_settings.php:226
+#: inc/admin/classes/chronopost/chronopost_settings.php:320
+#: inc/admin/classes/mondial_relay/mondial_relay_settings.php:226
+#: inc/admin/classes/ups/ups_settings.php:245
+#: inc/admin/partials/pickups/google_maps/modal.php:16
+#: inc/admin/partials/pickups/mondial_relay/modal.php:19
+#: inc/admin/partials/pickups/openstreetmap/modal.php:17
+#: inc/front/partials/pickups/google_maps/modal.php:18
+#: inc/front/partials/pickups/mondial_relay/modal.php:19
+#: inc/front/partials/pickups/openstreetmap/modal.php:23
+msgid "City"
+msgstr "Ville"
+
+#: inc/admin/partials/pickups/google_maps/modal.php:10
+#: inc/admin/partials/pickups/mondial_relay/modal.php:11
+#: inc/admin/partials/pickups/openstreetmap/modal.php:11
+#: inc/front/partials/pickups/google_maps/modal.php:10
+#: inc/front/partials/pickups/mondial_relay/modal.php:11
+#: inc/front/partials/pickups/openstreetmap/modal.php:13
+msgid "Close modal panel"
+msgstr "Fermer la fenêtre modale"
+
+#: wcmultishipping-blocks-integration.php:90
+msgid "Please select a pickup point"
+msgstr "Veuillez choisir un point relais"
+
+#: inc/front/partials/pickups/google_maps/button.php:17
+#: inc/front/partials/pickups/mondial_relay/button.php:19
+#: inc/front/partials/pickups/openstreetmap/button.php:16
+#: wcmultishipping-blocks-integration.php:89
+msgid "Your package will be ship to:"
+msgstr "Votre colis va être envoyé à :"
+
+#: inc/admin/partials/pickups/google_maps/button.php:10
+#: inc/admin/partials/pickups/mondial_relay/button.php:10
+#: inc/admin/partials/pickups/openstreetmap/button.php:10
+#: inc/front/partials/pickups/google_maps/button.php:1
+#: inc/front/partials/pickups/mondial_relay/button.php:2
+#: inc/front/partials/pickups/openstreetmap/button.php:1
+#: wcmultishipping-blocks-integration.php:91
+msgid "Choose a pickup point"
+msgstr "Choisir un point de retrait"

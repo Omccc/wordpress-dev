@@ -1,0 +1,59 @@
+# BEGIN WP Hide & Security Enhancer
+<IfModule mod_rewrite.c> 
+RewriteEngine On 
+RewriteBase /wordpress-dev/ 
+#WriteCheckString:1706714362_97273
+RewriteRule ^rewrite_test_1706714362_97273/? /wordpress-dev/wp-content/plugins/wp-hide-security-enhancer/include/rewrite-confirm.php [L,QSA]
+RewriteRule ^rewrite_test_static_file_1706714362_97273/? /wordpress-dev/wp-content/plugins/wp-hide-security-enhancer/composer.json [L,QSA]
+
+RewriteRule ^gestion.php(.*) /wordpress-dev/wp-login.php$1 [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-login.php /index.php?wph-throw-404 [L]
+
+RewriteCond %{REQUEST_URI} /wordpress-dev/gestion$
+RewriteRule ^(.*)$ /wordpress-dev/gestion/ [R=301,L]
+RewriteRule ^gestion/(.*) /wordpress-dev/wp-admin/$1 [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-admin(.+) /wordpress-dev/index.php?wph-throw-404 [L]
+
+</IfModule> 
+
+# END WP Hide & Security Enhancer
+
+# BEGIN WordPress
+# Les directives (lignes) entre « BEGIN WordPress » et « END WordPress » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /wordpress-dev/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /wordpress-dev/index.php [L]
+</IfModule>
+
+# END WordPress
+
+# Wordfence WAF
+<IfModule mod_php5.c>
+	php_value auto_prepend_file 'C:\wamp64\www\wordpress-dev/wordfence-waf.php'
+</IfModule>
+<IfModule mod_php7.c>
+	php_value auto_prepend_file 'C:\wamp64\www\wordpress-dev/wordfence-waf.php'
+</IfModule>
+<IfModule mod_php.c>
+	php_value auto_prepend_file 'C:\wamp64\www\wordpress-dev/wordfence-waf.php'
+</IfModule>
+<Files ".user.ini">
+<IfModule mod_authz_core.c>
+	Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order deny,allow
+	Deny from all
+</IfModule>
+</Files>
+
+# END Wordfence WAF
